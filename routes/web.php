@@ -65,6 +65,9 @@ Route::group(['middleware'=>['customer']], function() {
 // REFRESH TOKEN
 Route::get('csrf', function(){ return csrf_token(); });
 
+//GET CUSTOMER PAGE
+Route::get('customer/landing-page', function(){ return csrf_token(); });
+
 // USER LOGIN
 // Route::controller(LoginController::class)->group(function () {
 
