@@ -184,7 +184,7 @@
             </div>
         </div>
 
-        <div class="home-intro bg-primary py-4 " id="home-intro">
+        <div class="home-intro bg-primary py-3" id="home-intro">
             <div class="container">
 
                 <div class="row align-items-center">
@@ -225,8 +225,10 @@
                     <div class="col-lg-6 ps-lg-4 ps-xl-5 text-start">
                         <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-0">ABOUT US</h2>
                         <h3 class="text-6 text-lg-4 text-xl-7 line-height-3 text-transform-none font-weight-semibold mb-1 mb-lg-2 mb-xl-2">{{ env('APP_WEBSITE') }}</h3>
-                        <p class="text-3-5 pb-1 mb-4 mb-lg-2 mb-xl-4 px-1 ">
+                        <p class="text-3-5 pb-1 mb-1 mb-xl-4 px-1 ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <p class="text-3-5 pb-1 mb-0 mb-xl-4 px-1 ">
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </p>
@@ -339,9 +341,52 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="{{ route('services') }}" class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
+                            <span>All Services</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
+        {{-- END OUR SERVICE --}}
+
+        <section class="section section-no-background section-height-4 position-relative border-0 m-0">
+            <div class="container position-relative z-index-3 pt-0 mt-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" style="animation-delay: 250ms;">
+                            WHY US</h2>
+                        <h3 class="text-9 line-height-3 text-transform-none font-weight-medium text-color-dark ls-0 mb-3 pb-1 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" style="animation-delay: 500ms;">
+                            Learn Here The Main Reasons Why You Should Choose Us</h3>
+                        <p class="text-3-5 pb-2 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" style="animation-delay: 750ms;">
+                            Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. </p>
+                        <ul class="list ps-0 pe-lg-5 mb-0">
+                            <li class="d-flex align-items-start pb-1 mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
+                                <i class="fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle p-3"></i>
+                                <span class="text-3-5 ps-3">We wil identify where you're getting off-track in all areas and not just</span>
+                            </li>
+                            <li class="d-flex align-items-start pb-1 mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250" style="animation-delay: 1250ms;">
+                                <i class="fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle p-3"></i>
+                                <span class="text-3-5 ps-3">We create a program that accelerates your strategic execution and growth goals.
+                                </span>
+                            </li>
+                            <li class="d-flex align-items-start appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" style="animation-delay: 1500ms;">
+                                <i class="fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle p-3"></i>
+                                <span class="text-3-5 ps-3">Consistently hit strategic objectives and revenue targets, and grow, year over year.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="{{ asset('customer/web_img/generic-2 (2).jpg') }}" alt="" class="img-fluid box-shadow-5">
+                        {{-- <h2 class="custom-text-background custom-big-font-size-1 text-15 font-weight-bold float-end clearfix line-height-1 pe-xl-5 me-3 mb-0 d-none d-lg-block lazyloaded"
+                        >BENEFITS</h2> --}}
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="bg-gradient m-0">
             <div class="container py-2">
                 <div class="row align-items-center text-center text-lg-start py-5">
@@ -360,8 +405,6 @@
                 </div>
             </div>
         </div>
-        {{-- END OUR SERVICE --}}
-
 
         {{-- START FAQ --}}
         <section class="section section-no-background section-footer border-1 pt-0 mt-0 px-3">
