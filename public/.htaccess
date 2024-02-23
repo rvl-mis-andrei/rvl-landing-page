@@ -26,7 +26,8 @@
     </IfModule>
 
     RewriteEngine On
-    RewriteBase /
+    RewriteBase /laravel0002
+    # RewriteBase
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
