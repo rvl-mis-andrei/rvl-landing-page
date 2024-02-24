@@ -26,23 +26,22 @@
         <div class="container position-relative z-index-3 my-3">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 pe-lg-5 mb-4 mb-lg-0">
-                    <img src="{{ asset('customer/web_img/buildings/building_1.png') }}" class="img-fluid box-shadow-3">
+                    <a class="lightbox" href="{{ asset('customer/web_img/buildings/building_1.png') }}" data-plugin-options="{'type':'image'}">
+                        <img src="{{ asset('customer/web_img/buildings/building_1.png') }}" class="img-fluid box-shadow-5 rounded">'
+                    </a>'
                 </div>
                 <div class="col-lg-6">
                     <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">{{ env('APP_WEBSITE') }}</h2>
                     <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Company Overview</h3>
-                    <p class="mb-5">
+                    <p class="mb-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         <br><br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
 
-                    <div class="row align-items-center pb-2 mb-4 mb-lg-1 mb-xl-4">
+                    {{-- <div class="row align-items-center pb-2 mb-4 mb-lg-1 mb-xl-4">
                         <div class="col-5">
                             <div class="d-flex">
                                 <img width="63" height="63" src="{{ asset('customer/icons/label.svg') }}" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'd-lg-none d-xl-block'}" class="d-lg-none d-xl-block" style="opacity: 1; width: 63px;">
@@ -64,6 +63,26 @@
                                 </p>
                             </blockquote>
                         </div>
+                    </div> --}}
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-xl-7">
+                            <div class="row flex-xl-nowrap align-items-center mb-4 mb-lg-0">
+                                <div class="col-sm-auto mb-4 mb-sm-0">
+                                    <div class="d-flex appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
+                                        <img width="63" height="63" src="{{ asset('customer/icons/label.svg') }}" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'd-lg-none d-xl-block'}" class="d-lg-none d-xl-block" style="opacity: 1; width: 63px;">
+                                        <span class="text-3 font-weight-bold text-color-dark pt-2 ms-3">
+                                            <strong class="d-block font-weight-bold text-10 mb-0">240+</strong>
+                                            Satisfied Clients
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col-md-12">
+                                    <blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2 px-2 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1200" style="animation-delay: 1200ms;">
+                                        <p class="mb-0">“Committing to what we can deliver, Delivering to what we have committed”</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,7 +93,7 @@
         <div class="container position-relative z-index-3 my-5">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 order-2 order-lg-1">
-                    <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">OUR VALUES</h2>
+                    <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0"></h2>
                     <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Mission</h3>
                     <p class="mb-3">
                         • To provide innovative, practical and top quality trucking services that offers our customers a competitive advantage. <br>
@@ -97,23 +116,528 @@
             </div>
         </div>
     </section>
-    <section section class="section custom-section-shape-background bg-white custom-section-shape-background-reverse border-0 m-0">
+    {{-- <section section class="section custom-section-shape-background bg-white custom-section-shape-background-reverse border-0 m-0">
         <div class="container position-relative z-index-3 my-5">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 order-2 order-lg-2">
-                    <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">OUR OBJECTIVES</h2>
-                    <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Company Policy</h3>
+                <div class="col-lg-6 order-2 order-lg-2 ">
+                    <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0"></h2>
+                    <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Core Values</h3>
                     <p class="mb-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-1 ps-lg-5 mb-4 mb-lg-0">
+                <div class="col-lg-6 order-1 order-lg-1 ps-lg-0 mb-4 mb-lg-0">
                     <img src="{{ asset('customer/web_img/buildings/building_3.png') }}" class="img-fluid box-shadow-3">
                 </div>
             </div>
         </div>
+    </section> --}}
+    <section class="page-header bg-white page-header-modern page-header-md mb-0 pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 align-self-center p-static order-2 text-center">
+                    <h1 class="text-dark font-weight-bold text-8">Company Timeline</h1>
+                    <span class="sub-title text-dark">Safe and Quality Trucking Services</span>
+                </div>
+            </div>
+        </div>
     </section>
+    <div class="container py-4">
+
+        <div class="row">
+            <div class="col">
+                <div class="blog-posts">
+
+                    <section class="timeline">
+                        <div class="timeline-body">
+                            <div class="timeline-date">
+                                <h3 class="text-primary font-weight-bold">January 2023</h3>
+                            </div>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="blog-post.html">
+                                                    <img src="img/blog/wide/blog-11.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a stardard post with preview image</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> January 10, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <div class="owl-carousel owl-theme show-nav-hover dots-inside nav-inside nav-style-1 nav-light mb-0" data-plugin-options="{'items': 1, 'margin': 10, 'loop': false, 'nav': true, 'dots': true}">
+                                                    <div>
+                                                        <div class="img-thumbnail border-0 p-0 d-block">
+                                                            <img class="img-fluid border-radius-0" src="img/blog/wide/blog-24.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="img-thumbnail border-0 p-0 d-block">
+                                                            <img class="img-fluid border-radius-0" src="img/blog/wide/blog-20.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="img-thumbnail border-0 p-0 d-block">
+                                                            <img class="img-fluid border-radius-0" src="img/blog/wide/blog-21.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a stardard slider gallery post</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> January 9, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                                                    <div class="row mx-0">
+                                                        <div class="col-6 col-md-4 p-0">
+                                                            <a href="img/blog/square/blog-13.jpg">
+                                                                <span class="thumb-info thumb-info-no-borders thumb-info-centered-icons">
+                                                                    <span class="thumb-info-wrapper">
+                                                                        <img src="img/blog/square/blog-13.jpg" class="img-fluid" alt="" />
+                                                                        <span class="thumb-info-action">
+                                                                            <span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-plus text-dark"></i></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-6 col-md-4 p-0">
+                                                            <a href="img/blog/square/blog-16.jpg">
+                                                                <span class="thumb-info thumb-info-no-borders thumb-info-centered-icons">
+                                                                    <span class="thumb-info-wrapper">
+                                                                        <img src="img/blog/square/blog-16.jpg" class="img-fluid" alt="" />
+                                                                        <span class="thumb-info-action">
+                                                                            <span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-plus text-dark"></i></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-6 col-md-4 p-0">
+                                                            <a href="img/blog/square/blog-20.jpg">
+                                                                <span class="thumb-info thumb-info-no-borders thumb-info-centered-icons">
+                                                                    <span class="thumb-info-wrapper">
+                                                                        <img src="img/blog/square/blog-20.jpg" class="img-fluid" alt="" />
+                                                                        <span class="thumb-info-action">
+                                                                            <span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-plus text-dark"></i></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-6 col-md-4 p-0">
+                                                            <a href="img/blog/square/blog-23.jpg">
+                                                                <span class="thumb-info thumb-info-no-borders thumb-info-centered-icons">
+                                                                    <span class="thumb-info-wrapper">
+                                                                        <img src="img/blog/square/blog-23.jpg" class="img-fluid" alt="" />
+                                                                        <span class="thumb-info-action">
+                                                                            <span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-plus text-dark"></i></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-6 col-md-4 p-0">
+                                                            <a href="img/blog/square/blog-29.jpg">
+                                                                <span class="thumb-info thumb-info-no-borders thumb-info-centered-icons">
+                                                                    <span class="thumb-info-wrapper">
+                                                                        <img src="img/blog/square/blog-29.jpg" class="img-fluid" alt="" />
+                                                                        <span class="thumb-info-action">
+                                                                            <span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-plus text-dark"></i></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-6 col-md-4 p-0">
+                                                            <a href="img/blog/square/blog-40.jpg">
+                                                                <span class="thumb-info thumb-info-no-borders thumb-info-centered-icons">
+                                                                    <span class="thumb-info-wrapper">
+                                                                        <img src="img/blog/square/blog-40.jpg" class="img-fluid" alt="" />
+                                                                        <span class="thumb-info-action">
+                                                                            <span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-plus text-dark"></i></span>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a standard image gallery thumbs post</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> January 8, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <div class="timeline-date">
+                                <h3 class="text-primary font-weight-bold">November 2023</h3>
+                            </div>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <div class="ratio ratio-16x9">
+                                                    <iframe  src="https://player.vimeo.com/video/45830194?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="640" height="360" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a standard embedded video post</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> November 10, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <div class="ratio ratio-16x9">
+                                                    <video  autoplay="" muted="" loop="" controls="">
+                                                        <source src="video/memory-of-a-woman.mp4" type="video/mp4">
+                                                    </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a standard HTML5 video post</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> November 9, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <div class="timeline-date">
+                                <h3 class="text-primary font-weight-bold">September 2023</h3>
+                            </div>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <blockquote class="blockquote-primary">
+                                                    <p>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada. Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                                                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a standard blockquote post</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> September 10, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="http://www.themeforest.net/" class="d-block btn btn-primary btn-outline border-0 rounded-0 font-weight-bold text-center text-6 p-5" target="_blank">PORTO ON<br> THEMEFOREST</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a standard link post</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> September 9, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <div class="ratio ratio-soundcloud ratio-16x9">
+                                                    <iframe  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/341546259&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a standard audio embedded post</a></h2>
+                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> September 8, 2023 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
+                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
+                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+{{-- 
+                            <div class="timeline-date">
+                                <h3 class="text-primary font-weight-bold"><a href="#">Load More...</a></h3>
+                            </div> --}}
+
+                        </div>
+
+                    </section>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
     <section section class="section section-footer mb-0  pt-5 pb-1">
         <div class="container-fluid">

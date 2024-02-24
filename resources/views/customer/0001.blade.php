@@ -80,7 +80,7 @@
                             data-lineheight="['26','26','26','45']"
                             data-transform_in="y:[-50%];opacity:0;s:500;"
                             data-start="700"
-                            style="color: #f0f0f0;">Trucking and Logistic Company Cargo, Motorcycle and Car Carrier</div>
+                            style="color: #f0f0f0;">CAR CARRIER, CARGO HAULING & TRUCKING SERVICES</div>
 
                     </li>
                     <li class="slide-overlay" data-transition="fade">
@@ -184,19 +184,19 @@
             </div>
         </div>
 
-        <div class="home-intro bg-primary py-3" id="home-intro">
+        <div class="home-intro bg-primary py-4 mb-5" id="home-intro">
             <div class="container">
 
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <p class="mb-2">
-                            Offering Safe and Quality Trucking
+                            Safe and Quality Trucking Services
                             <span>Check out our services or learn more.</span>
                         </p>
                     </div>
                     <div class="col-lg-4">
                         <div class="get-started text-start text-lg-end">
-                            <a href="{{ route('products') }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">OUR SERVICES</a>
+                            <a href="{{ route('services') }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">OUR SERVICES</a>
                             <div class="learn-more">or <a href="{{ route('about_us') }}">learn more.</a></div>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
                     <div class="col-lg-9 mb-3 mb-lg-0">
                         <p class="text-color-light text-4-5 font-weight-medium line-height-4 mb-0">
                             <span class="d-inline-block appear-animation animated fadeInUpShorterPlus appear-animation-visible" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="0" style="animation-delay: 0ms;">
-                                <strong>Request Rate Online</strong> - Need Immediate Confirmation? Call Us at <u>888-123-4567</u>
+                                <strong>Request a Quote</strong> - Need Immediate Confirmation? Call Us at <u>888-123-4567</u>
                             </span>
                         </p>
                     </div>
