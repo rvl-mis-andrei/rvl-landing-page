@@ -153,7 +153,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="{{ route('activities') }}">
+                                            <a class="nav-link nav-activities" href="{{ route('activities') }}">
                                                 Activities
                                             </a>
                                         </li>

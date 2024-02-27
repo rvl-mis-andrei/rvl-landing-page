@@ -1,6 +1,6 @@
 @extends('customer.layout.app')
 
-@section('title', 'Exelpack - Contact Us')
+@section('title', env('APP_WEBSITE').' - Contact Us')
 
 @section('content')
 <div role="main" class="main">
@@ -37,7 +37,7 @@
             <p class="mb-4">Feel free to ask for details, don't save any questions!</p>
 
             <form id="contactFormAdvanced"
-                action="https://www.okler.net/previews/porto/9.9.3/contact-us-advanced.php#contact-sent" method="POST"
+                action="#" method="POST"
                 enctype="multipart/form-data" novalidate="novalidate">
                 <div class="row">
                     <div class="form-group col-md-12">
@@ -101,25 +101,25 @@
                     data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}}">
                     <div class="col-md-4 mb-4 mb-md-0">
                         <a class="img-thumbnail p-0 border-0 d-block"
-                            href="{{ asset('customer/web_img/office/our-office-1.jpg') }}"
+                            href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
                             data-plugin-options="{'type':'image'}">
-                            <img class="img-fluid" src="{{ asset('customer/web_img/office/office-1.png') }}"
+                            <img class="img-fluid" src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
                                 alt="Office">
                         </a>
                     </div>
                     <div class="col-md-4 mb-4 mb-md-0">
                         <a class="img-thumbnail p-0 border-0 d-block"
-                            href="{{ asset('customer/web_img/office/our-office-2.jpg') }}"
+                            href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
                             data-plugin-options="{'type':'image'}">
-                            <img class="img-fluid" src="{{ asset('customer/web_img/office/office-2.png') }}"
+                            <img class="img-fluid" src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
                                 alt="Office">
                         </a>
                     </div>
                     <div class="col-md-4">
                         <a class="img-thumbnail p-0 border-0 d-block"
-                            href="{{ asset('customer/web_img/office/our-office-3.jpg') }}"
+                            href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
                             data-plugin-options="{'type':'image'}">
-                            <img class="img-fluid" src="{{ asset('customer/web_img/office/office-3.png') }}"
+                            <img class="img-fluid" src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
                                 alt="Office">
                         </a>
                     </div>

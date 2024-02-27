@@ -1,6 +1,6 @@
 @extends('customer.layout.app')
 
-@section('title', 'Exelpack - Careers')
+@section('title', env('APP_WEBSITE').' - Careers')
 
 @section('content')
 <div role="main" class="main">

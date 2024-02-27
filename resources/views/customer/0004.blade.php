@@ -1,6 +1,6 @@
 @extends('customer.layout.app')
 
-@section('title', 'Exelpack - Services')
+@section('title', env('APP_WEBSITE').' - Services')
 
 @section('content')
 <div role="main" class="main">
@@ -29,20 +29,16 @@
                     <div class="col-lg-12 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
                         <div class="overflow-hidden">
                             <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2">OUR SERVICE</h2>
-                            <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Seventeen Years of Top Experience</h2>
+                            <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                                RVLMC’S LOGISTICS CAPABILITIES
+                            </h2>
                         </div>
                         <div class="custom-divider divider divider-primary divider-small my-3">
                             <hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700" style="animation-delay: 700ms;">
                         </div>
                         <p class="font-weight-light text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450" style="animation-delay: 450ms;">
-                            Exelpack is committed to offering fundamental products, including
-                            Corrugated Boxes, Paper Pallets, fabricated cartons, and foam inserts.
-                            Our company provides a diverse range of services, from Product
-                            Development and Box Assembly to encompass Shipping/Loading
-                            for our customers. Working closely with our dedicated workforce,
-                            we are enthusiastic about fulfilling your requirements and nurturing
-                            a mutually beneficial business relationship with you, as your valued
-                            customer.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
                         </p>
                     </div>
@@ -55,7 +51,7 @@
                                     <div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block mb-3">
                                         <img src="img/demos/cleaning-services/services/services-small-1.jpg" class="img-fluid rounded-circle" alt="">
                                     </div>
-                                    <h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Product Development</h4>
+                                    <h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">CARGO FLEETS</h4>
                                     <p class="custom-card-style-1-description">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. </p>
                                     {{-- <span class="custom-card-style-1-link font-weight-bold">VIEW MORE</span> --}}
                                 </div>
@@ -69,7 +65,7 @@
                                     <div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block mb-3">
                                         <img src="img/demos/cleaning-services/services/services-small-2.jpg" class="img-fluid rounded-circle" alt="">
                                     </div>
-                                    <h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Box Assembly</h4>
+                                    <h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">CAR CARRIER FLEETS</h4>
                                     <p class="custom-card-style-1-description">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. </p>
                                     {{-- <span class="custom-card-style-1-link font-weight-bold">VIEW MORE</span> --}}
                                 </div>
@@ -83,7 +79,7 @@
                                     <div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block mb-3">
                                         <img src="img/demos/cleaning-services/services/services-small-3.jpg" class="img-fluid rounded-circle" alt="">
                                     </div>
-                                    <h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Shipping & Loading</h4>
+                                    <h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">OTHER FLEETS</h4>
                                     <p class="custom-card-style-1-description">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. </p>
                                     {{-- <span class="custom-card-style-1-link font-weight-bold">VIEW MORE</span> --}}
                                 </div>
@@ -154,14 +150,14 @@
                         <div>
                             <a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1">
                                 <i class="icon icon-phone text-color-primary text-4-5 me-2"></i>
-                                lvibora@exelpackcorp.com
+                                recruitment@rvlmovers.com
                             </a>
                         </div>
                         <div class="vr"></div>
                         <div>
                             <a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1">
                                 <i class="icon icon-phone text-color-primary text-4-5 me-2"></i>
-                                (049) 502-0295
+                                0998 584 5569
                             </a>
                         </div>
                     </div>

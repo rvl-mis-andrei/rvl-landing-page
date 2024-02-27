@@ -1,6 +1,6 @@
 @extends('customer.layout.app')
 
-@section('title', 'RVL Movers Corporation - Home')
+@section('title', env('APP_WEBSITE').' - Home')
 
 @section('content')
 
@@ -214,11 +214,11 @@
                     <div class="col-md-12 col-lg-6 mb-5 mb-lg-0">
                         <div class="row row-gutter-sm">
                             <div class="col-6">
-                                <img src="{{ asset('customer/web_img/generic-1.jpg') }}" class="img-fluid box-shadow-5" alt="">
+                                <img src="{{ asset('customer/web_img/about-us-1.png') }}" class="img-fluid box-shadow-5" alt="">
                             </div>
                             <div class="col-6">
-                                <img src="{{ asset('customer/web_img/generic-2.jpg') }}" class="img-fluid box-shadow-5 mb-lg-4 mb-3" alt="">
-                                <img src="{{ asset('customer/web_img/generic-3.jpg') }}" class="img-fluid box-shadow-5" alt="">
+                                <img src="{{ asset('customer/web_img/about-us-2.png') }}" class="img-fluid box-shadow-5 mb-lg-4 mb-3" alt="">
+                                <img src="{{ asset('customer/web_img/about-us-3.png') }}" class="img-fluid box-shadow-5" alt="">
                             </div>
                         </div>
                     </div>
@@ -261,7 +261,7 @@
                                     <div class="p-relative">
                                         <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
 											<span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                                <img src="{{ asset('customer/web_img/products/box_and_foam_inserts.png') }}" class="img-fluid rounded" alt="">
+                                                <img src="{{ asset('customer/web_img/trucks/CARGO TRUCK SERVICES.png') }}" class="img-fluid rounded" alt="">
 												<span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
 													<span class="thumb-info-swap-content-wrapper">
 														<span class="thumb-info-inner text-3-5 pb-2">
@@ -288,7 +288,7 @@
                                     <div class="p-relative">
                                         <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
 											<span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                                <img src="{{ asset('customer/web_img/products/box_and_foam_inserts.png') }}" class="img-fluid rounded" alt="">
+                                                <img src="{{ asset('customer/web_img/trucks/CAR CARRIER SERVICES.png') }}" class="img-fluid rounded" alt="">
 												<span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
 													<span class="thumb-info-swap-content-wrapper">
 														<span class="thumb-info-inner text-3-5 pb-2">
@@ -314,7 +314,7 @@
                                     <div class="p-relative">
                                         <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
 											<span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                                <img src="{{ asset('customer/web_img/products/box_and_foam_inserts.png') }}" class="img-fluid rounded" alt="">
+                                                <img src="{{ asset('customer/web_img/trucks/CAR CARRIER SERVICES.png') }}" class="img-fluid rounded" alt="">
 												<span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
 													<span class="thumb-info-swap-content-wrapper">
 														<span class="thumb-info-inner text-3-5 pb-2">
@@ -380,7 +380,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6">
-                        <img src="{{ asset('customer/web_img/generic-2 (2).jpg') }}" alt="" class="img-fluid box-shadow-5">
+                        <img src="{{ asset('customer/web_img/trucks/CAR CARRIER SERVICES.png') }}" alt="" class="img-fluid box-shadow-5">
                         {{-- <h2 class="custom-text-background custom-big-font-size-1 text-15 font-weight-bold float-end clearfix line-height-1 pe-xl-5 me-3 mb-0 d-none d-lg-block lazyloaded"
                         >BENEFITS</h2> --}}
                     </div>

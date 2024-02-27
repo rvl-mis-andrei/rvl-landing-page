@@ -1,6 +1,6 @@
 @extends('customer.layout.app')
 
-@section('title', 'RVL Movers Corporation - About Us')
+@section('title', env('APP_WEBSITE').' - About Us')
 
 @section('content')
 
@@ -26,8 +26,8 @@
         <div class="container position-relative z-index-3 my-3">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 pe-lg-5 mb-4 mb-lg-0">
-                    <a class="lightbox" href="{{ asset('customer/web_img/buildings/building_1.png') }}" data-plugin-options="{'type':'image'}">
-                        <img src="{{ asset('customer/web_img/buildings/building_1.png') }}" class="img-fluid box-shadow-5 rounded">'
+                    <a class="lightbox" href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}" data-plugin-options="{'type':'image'}">
+                        <img src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}" class="img-fluid box-shadow-5 rounded">'
                     </a>'
                 </div>
                 <div class="col-lg-6">
@@ -111,7 +111,7 @@
 
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 ps-lg-5 mb-4 mb-lg-0">
-                    <img src="{{ asset('customer/web_img/buildings/building_2.png') }}" class="img-fluid box-shadow-3">
+                    <img src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}" class="img-fluid box-shadow-3">
                 </div>
             </div>
         </div>
@@ -623,7 +623,7 @@
                                     </div>
                                 </div>
                             </article>
-{{-- 
+                            {{--
                             <div class="timeline-date">
                                 <h3 class="text-primary font-weight-bold"><a href="#">Load More...</a></h3>
                             </div> --}}
