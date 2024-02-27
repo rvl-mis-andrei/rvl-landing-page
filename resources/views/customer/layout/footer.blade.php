@@ -15,7 +15,7 @@
                 <h5 class="text-3 mb-3">USEFUL LINKS</h5>
                 <ul class="list-unstyled mb-0">
                     <li class="mb-2 ">
-                        <a href="#">
+                        <a href="{{ route('about_us') }}">
                             <p class="text-3 text-color-light opacity-8 mb-0">
                                 <i class="fas fa-angle-right text-color-primary"></i>
                                 <strong class="ms-2 font-weight-semibold">ABOUT US</strong>
@@ -23,7 +23,7 @@
                         </a>
                     </li>
                     <li class="mb-2 ">
-                        <a href="#">
+                        <a href="{{ route('services') }}">
                             <p class="text-3 text-color-light opacity-8 mb-0">
                                 <i class="fas fa-angle-right text-color-primary"></i>
                                 <strong class="ms-2 font-weight-semibold">OUR SERVICES</strong>
@@ -31,7 +31,7 @@
                         </a>
                     </li>
                     <li class="mb-2 ">
-                        <a href="#">
+                        <a href="{{ route('careers') }}">
                             <p class="text-3 text-color-light opacity-8 mb-0">
                                 <i class="fas fa-angle-right text-color-primary"></i>
                                 <strong class="ms-2 font-weight-semibold">CAREERS</strong>

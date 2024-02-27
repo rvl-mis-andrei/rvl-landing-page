@@ -115,7 +115,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo" style="width: 100px; height: 48px;">
-                            <a href="index.html">
+                            <a href="{{ route('home') }}">
                                 <img alt="Porto" width="135" height="85" data-sticky-width="125" data-sticky-height="70" src="{{ asset('customer/logo/rvl_logo.png') }}">
                             </a>
                         </div>
