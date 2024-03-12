@@ -34,36 +34,14 @@
                     <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">{{ env('APP_WEBSITE') }}</h2>
                     <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Company Overview</h3>
                     <p class="mb-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        {{ env('APP_WEBSITE') }} is a Filipino family-owned business and been providing
+                        customers with a range of delivery solutions to specific customer requirements since
+                        1995 (28 years).
                         <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        We provide a one stop shop for all your shipping needs, from a simple pick and drop to
+                        overseeing the complete supply chain; we take care of your shipments no matter what
+                        shape or size.
                     </p>
-
-                    {{-- <div class="row align-items-center pb-2 mb-4 mb-lg-1 mb-xl-4">
-                        <div class="col-5">
-                            <div class="d-flex">
-                                <img width="63" height="63" src="{{ asset('customer/icons/label.svg') }}" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'd-lg-none d-xl-block'}" class="d-lg-none d-xl-block" style="opacity: 1; width: 63px;">
-                                <span class="text-3 font-weight-bold text-color-dark pt-2 ms-2">
-                                    <strong class="d-block font-weight-bold text-9 mb-2">240+</strong>
-                                    Satisfied Clients
-                                </span>
-                            </div>
-                        </div>
-                        <div class="col-7">
-                            <blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-0">
-                                <p class="mb-0">
-                                    <div class="row g-0">
-                                        <div class="col-12 px-4">
-                                            <img class="img-fluid" src="{{ asset('customer/logo/certification.png') }}" alt="">
-                                        </div>
-                                    </div>
-
-                                </p>
-                            </blockquote>
-                        </div>
-                    </div> --}}
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-xl-7">
                             <div class="row flex-xl-nowrap align-items-center mb-4 mb-lg-0">
@@ -78,7 +56,7 @@
                                 </div>
                                 <div class="col-sm-7 col-md-12">
                                     <blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2 px-2 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1200" style="animation-delay: 1200ms;">
-                                        <p class="mb-0">“Committing to what we can deliver, Delivering to what we have committed”</p>
+                                        <p class="mb-0">“Safe and Quality Trucking Services”</p>
                                     </blockquote>
                                 </div>
                             </div>
@@ -96,17 +74,20 @@
                     <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0"></h2>
                     <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Mission</h3>
                     <p class="mb-3">
-                        • To provide innovative, practical and top quality trucking services that offers our customers a competitive advantage. <br>
-                        • We are dedicated to the growth of our personnel and their wellbeing so they may achieve exceptional service.<br>
-                        • We will strive to go the extra mile, setting the highest standards to meet and exceed our customer’s transportation demands.<br>
+                        To deliver streamlined logistics solutions with utmost efficiency,
+                        through impeccable service quality, competitive rates, and a
+                        commitment to continuous improvement.
+                        We seek excellence in the performance of our delivery services
+                        and committed that our customer satisfaction is the essence of
+                        our mission.
                     </p>
 
                     <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Vision</h3>
                     <p class="mb-3">
-                        • To become the preferred and leading Logistics Service Provider in the country.<br>
-                        • To be able to provide fast, efficient, reliable and cost
-                        saving services of all types of cargo-related needs to
-                        clients nationwide.
+                        To become the preferred and leading logistics service
+                        provider that is able to provide fast, safe, reliable and
+                        cost-effective services for all types of cargo-related
+                        needs to clients worldwide.
                     </p>
 
                 </div>

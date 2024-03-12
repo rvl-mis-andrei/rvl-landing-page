@@ -90,7 +90,7 @@
                                         <span class="ws-nowrap"><i class="fas fa-phone"></i>0998 584 5569</span>
                                     </li>
                                     <li class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-sm-show">
-                                        <span class="ws-nowrap"><i class="fas fa-envelope"></i>recruitment@rvlmovers.com</span>
+                                        <span class="ws-nowrap"><i class="fas fa-envelope"></i>info@rvlmovers.com</span>
                                     </li>
                                 </ul>
                             </nav>

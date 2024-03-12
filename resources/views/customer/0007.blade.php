@@ -91,41 +91,41 @@
                 style="animation-delay: 800ms;">
                 <h4 class="text-primary pt-4">Our <strong>Office</strong></h4>
                 <ul class="list list-icons list-icons-style-3 mt-2">
-                    <li><i class="fas fa-map-marker-alt top-6"></i> <strong>Address:</strong>Daystar Industrial Park Bgy. Pulong Sta Cruz, Balibago, Santa Rosa, 4026 Laguna, Philippines</li>
-                    <li><i class="fas fa-phone top-6"></i> <strong>Phone:</strong>0998 598 4656</li>
-                    <li><i class="fas fa-envelope top-6"></i> <strong>Email:</strong> <a
-                            href="mailto:mail@example.com">recruitment@rvlmovers.com</a></li>
+                    <li><i class="fas fa-map-marker-alt top-6"></i> <strong>Address: </strong>Daystar Industrial Park Bgy. Pulong Sta Cruz, Balibago, Santa Rosa, 4026 Laguna, Philippines</li>
+                    <li><i class="fas fa-phone top-6"></i> <strong>Phone: </strong>0998 598 4656</li>
+                    <li><i class="fas fa-envelope top-6"></i> <strong>Email: </strong> <a
+                            href="mailto:mail@example.com">info@rvlmovers.com</a></li>
                 </ul>
 
                 <div class="row lightbox mt-4 mb-0 pb-0"
                     data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}}">
                     <div class="col-md-4 mb-4 mb-md-0">
                         <a class="img-thumbnail p-0 border-0 d-block"
-                            href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
+                            href="{{ asset('customer/web_img/office/office-1.png') }}"
                             data-plugin-options="{'type':'image'}">
-                            <img class="img-fluid" src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('customer/web_img/office/office-1.png') }}"
                                 alt="Office">
                         </a>
                     </div>
                     <div class="col-md-4 mb-4 mb-md-0">
                         <a class="img-thumbnail p-0 border-0 d-block"
-                            href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
+                            href="{{ asset('customer/web_img/office/office-2.png') }}"
                             data-plugin-options="{'type':'image'}">
-                            <img class="img-fluid" src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('customer/web_img/office/office-2.png') }}"
                                 alt="Office">
                         </a>
                     </div>
                     <div class="col-md-4">
                         <a class="img-thumbnail p-0 border-0 d-block"
-                            href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
+                            href="{{ asset('customer/web_img/office/office-3.png') }}"
                             data-plugin-options="{'type':'image'}">
-                            <img class="img-fluid" src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('customer/web_img/office/office-3.png') }}"
                                 alt="Office">
                         </a>
                     </div>
                 </div>
 
-                <h4 class="text-primary pt-5">Business <strong>Hours</strong></h4>
+                <h4 class="text-primary pt-4">Business <strong>Hours</strong></h4>
                 <ul class="list list-icons list-dark mt-2">
                     <li><i class="far fa-clock top-6"></i> Monday - Saturday - 9am to 5pm</li>
                     <li><i class="far fa-clock top-6"></i> Sunday - Closed</li>

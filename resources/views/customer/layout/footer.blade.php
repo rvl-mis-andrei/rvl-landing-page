@@ -8,7 +8,9 @@
                 <h4 class="font-weight-semibold text-color-light ls-0 mb-0">RVL Movers Corporation</h4>
                 <h6 class="text-muted">Safe and Quality Trucking</h6>
                 <span class="py-5 my-5">
-                    <p class="text-3-5">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur fel. </p>
+                    <p class="text-3-5">
+                        Committing to what we can deliver, Delivering to what we have committed!
+                    </p>
                 </span>
             </div>
             <div class="col-md-6 col-lg-2 mb-4 mb-lg-0">
@@ -50,7 +52,7 @@
                             <i class="far fa-envelope text-color-primary"></i>
                             <p class="m-0">
                                 <a href="#">
-                                    <span>recruitment@rvlmovers.com</span>
+                                    <span>info@rvlmovers.com</span>
                                 </a>
                             </p>
                         </li>
