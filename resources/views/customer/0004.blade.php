@@ -115,7 +115,7 @@
                                 <div class="p-relative">
                                     <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                         <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                            <img src="{{ asset('customer/web_img/trucks/TRUCK_SERVICES_10W.png') }}" class="img-fluid rounded" alt="">
+                                            <img src="{{ asset('customer/web_img/trucks/BROKER_SERVICES.png') }}" class="img-fluid rounded" alt="">
                                             <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                                 <span class="thumb-info-swap-content-wrapper">
                                                     <span class="thumb-info-inner text-3-5 pb-2">
