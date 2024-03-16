@@ -168,7 +168,7 @@
                             <div class="p-relative">
                                 <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                     <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                        <img src="{{ asset('customer/web_img/trucks/CAR_CARRIER_SERVICES.png') }}" class="img-fluid rounded" alt="">
+                                        <img src="{{ asset('customer/web_img/products/8MDL.png') }}" class="img-fluid rounded" alt="">
                                         <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                             <span class="thumb-info-swap-content-wrapper">
                                                 <span class="thumb-info-inner text-3-5 pb-2">
@@ -188,7 +188,7 @@
                             <div class="p-relative">
                                 <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                     <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                        <img src="{{ asset('customer/web_img/trucks/MOTOR_CARRIER_SERVICES.png') }}" class="img-fluid rounded" alt="">
+                                        <img src="{{ asset('customer/web_img/products/3JUPITER.png') }}" class="img-fluid rounded" alt="">
                                         <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                             <span class="thumb-info-swap-content-wrapper">
                                                 <span class="thumb-info-inner text-3-5 pb-2">
@@ -208,7 +208,7 @@
                             <div class="p-relative">
                                 <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                     <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                        <img src="{{ asset('customer/web_img/trucks/CARGO_TRUCK_SERVICES.png') }}" class="img-fluid rounded" alt="">
+                                        <img src="{{ asset('customer/web_img/products/RVL_Auto_Logistic.png') }}" class="img-fluid rounded" alt="">
                                         <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                             <span class="thumb-info-swap-content-wrapper">
                                                 <span class="thumb-info-inner text-3-5 pb-2">
@@ -232,7 +232,7 @@
                             <div class="p-relative">
                                 <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                     <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                        <img src="{{ asset('customer/web_img/trucks/TRUCK_SERVICES_10W.png') }}" class="img-fluid rounded" alt="">
+                                        <img src="{{ asset('customer/web_img/products/HINO_Dealership_Carmona.png') }}" class="img-fluid rounded" alt="">
                                         <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                             <span class="thumb-info-swap-content-wrapper">
                                                 <span class="thumb-info-inner text-3-5 pb-2">

@@ -26,8 +26,8 @@
         <div class="container position-relative z-index-3 my-3">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 pe-lg-5 mb-4 mb-lg-0">
-                    <a class="lightbox" href="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}" data-plugin-options="{'type':'image'}">
-                        <img src="{{ asset('customer/web_img/buildings/generic-10-factory.jpg') }}" class="img-fluid box-shadow-5 rounded">'
+                    <a class="lightbox" href="{{ asset('customer/web_img/slider-1.jpg') }}" data-plugin-options="{'type':'image'}">
+                        <img src="{{ asset('customer/web_img/CAR_CARRIER_TRUCKS.png') }}" class="img-fluid box-shadow-5 rounded">'
                     </a>'
                 </div>
                 <div class="col-lg-6">
@@ -47,10 +47,10 @@
                             <div class="row flex-xl-nowrap align-items-center mb-4 mb-lg-0">
                                 <div class="col-sm-auto mb-4 mb-sm-0">
                                     <div class="d-flex appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
-                                        <img width="63" height="63" src="{{ asset('customer/icons/label.svg') }}" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'd-lg-none d-xl-block'}" class="d-lg-none d-xl-block" style="opacity: 1; width: 63px;">
+                                        <img width="63" height="63" src="{{ asset('customer/icons/service-1.svg') }}" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'd-lg-none d-xl-block'}" class="d-lg-none d-xl-block" style="opacity: 1; width: 63px;">
                                         <span class="text-3 font-weight-bold text-color-dark pt-2 ms-3">
-                                            <strong class="d-block font-weight-bold text-10 mb-0">240+</strong>
-                                            Satisfied Clients
+                                            <strong class="d-block font-weight-bold text-10 mb-0">29</strong>
+                                            Years in Industry
                                         </span>
                                     </div>
                                 </div>
@@ -132,8 +132,9 @@
 
                     <section class="timeline">
                         <div class="timeline-body">
+
                             <div class="timeline-date">
-                                <h3 class="text-primary font-weight-bold">January 2023</h3>
+                                <h3 class="text-primary font-weight-bold">1995-1997</h3>
                             </div>
 
                             <article class="timeline-box left post post-medium">
@@ -143,8 +144,8 @@
 
                                         <div class="col">
                                             <div class="post-image">
-                                                <a href="blog-post.html">
-                                                    <img src="img/blog/wide/blog-11.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
                                                 </a>
                                             </div>
                                         </div>
@@ -153,8 +154,8 @@
                                         <div class="col">
 
                                             <div class="post-content">
-                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="blog-post.html">This is a stardard post with preview image</a></h2>
-                                                <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">1995</a></h2>
+                                                <p>Ventured into commercial hauling with Kimberly Clark as our initial client.</p>
                                             </div>
 
                                         </div>
@@ -162,27 +163,324 @@
                                     <div class="row">
                                         <div class="col">
                                             <div class="post-meta">
-                                                <span><i class="far fa-calendar-alt"></i> January 10, 2023 </span><br>
+                                                <span><i class="far fa-calendar-alt"></i> 1995 </span><br>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="post-meta">
-                                                <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
-                                                <span><i class="far fa-folder"></i> <a href="#">Lifestyle</a>, <a href="#">Design</a> </span>
-                                                <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">1997</a></h2>
+                                                <p>Ventured into commercial hauling with Kimberly Clark as our initial client.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 1997 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <div class="timeline-date">
+                                <h3 class="text-primary font-weight-bold">2003-2009</h3>
+                            </div>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2003</a></h2>
+                                                <p>Ventured into car carrier business with HONDA Cars Philippines, FORD and ISUZU thru Asian Terminals, Inc. (ATI)
+                                                    Autologistics as our first client..</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2003 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2004</a></h2>
+                                                <p>RVLo, a single proprietorship was converted to RVL MOVERS CORPORATION</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2004 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2008</a></h2>
+                                                <p>Started to provide car carrier services with Mitsubishi Motors Philippines Corp. for selected import deliveries.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2008 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2009</a></h2>
+                                                <p>Expands its car carrier services with Mitsubishi Motors Philippines Corp. for regular dealer deliveries and various
+                                                    import and transfer transactions up to present.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2009 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <div class="timeline-date">
+                                <h3 class="text-primary font-weight-bold">2011-2019</h3>
+                            </div>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2011</a></h2>
+                                                <p>Supported TOYOTA’s first pilot project to provide car carrier services in Luzon. Handles Brokerage Services and
+                                                    Import deliveries from Port to TMP Yards.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2011 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2012</a></h2>
+                                                <p>Started to provide car carrier services with NYK AUTO LOGISTICS handling FORD imports and dealership, up to
+                                                    present.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2012 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box left post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2017</a></h2>
+                                                <p>Started to provide car carrier services with NYK AUTO LOGISTICS handling NISSAN imports and dealership.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2017 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="timeline-box right post post-medium">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <div class="row mb-2">
+
+                                        <div class="col">
+                                            <div class="post-image">
+                                                <a href="javascript:;">
+                                                    <img src="javascript:;" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="post-content">
+                                                <h2 class="font-weight-semibold text-5 line-height-4 mt-2 mb-2"><a href="javascript:;">2019</a></h2>
+                                                <p> RVL Movers Corp., was awarded by TOYOTA MOTOR PHILIPPINES to handle deliveries of Toyota vehicle in
+                                                    Visayas and Mindanao to expand nationwide.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="post-meta">
+                                                <span><i class="far fa-calendar-alt"></i> 2019 </span><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+{{--
                             <article class="timeline-box right post post-medium">
                                 <div class="timeline-box-arrow"></div>
                                 <div class="p-2">
@@ -603,11 +901,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </article>
-                            {{--
-                            <div class="timeline-date">
-                                <h3 class="text-primary font-weight-bold"><a href="#">Load More...</a></h3>
-                            </div> --}}
+                            </article> --}}
 
                         </div>
 
