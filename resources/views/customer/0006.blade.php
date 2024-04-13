@@ -112,7 +112,7 @@
                 <h3 class="font-weight-bold text-3 mb-4 mt-4 mt-md-0">Recent Posts</h3>
                 <div class="row pb-1">
                     <div class="col-sm-6 col-lg-4 mb-4 pb-2">
-                        <a href="blog-post.html">
+                        <a href="javascript:;">
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
@@ -136,7 +136,7 @@
                     </div>
 
                     <div class="col-sm-6 col-lg-4 mb-4 pb-2">
-                        <a href="blog-post.html">
+                        <a href="javascript:;">
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
@@ -160,7 +160,7 @@
                     </div>
 
                     <div class="col-sm-6 col-lg-4 mb-4 pb-2">
-                        <a href="blog-post.html">
+                        <a href="javascript:;">
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
@@ -184,7 +184,7 @@
                     </div>
 
                     <div class="col-sm-6 col-lg-4 mb-4 pb-2">
-                        <a href="blog-post.html">
+                        <a href="javascript:;">
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
@@ -207,7 +207,7 @@
                     </div>
 
                     <div class="col-sm-6 col-lg-4 mb-4 pb-2">
-                        <a href="blog-post.html">
+                        <a href="javascript:;">
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
@@ -230,7 +230,7 @@
                     </div>
 
                     <div class="col-sm-6 col-lg-4 mb-4 pb-2">
-                        <a href="blog-post.html">
+                        <a href="javascript:;">
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">

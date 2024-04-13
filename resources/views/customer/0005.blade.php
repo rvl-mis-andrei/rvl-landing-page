@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-md-4 order-1 order-md-2 align-self-center">
                     <ul class="breadcrumb breadcrumb-light d-block text-md-end">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="javascript:;">Home</a></li>
                         <li class="active">Careers</li>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="btn btn-modern btn-dark">Apply</a>
+                                    <a href="javascript:;" class="btn btn-modern btn-dark">Apply</a>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="btn btn-modern btn-dark">Apply</a>
+                                    <a href="javascript:;" class="btn btn-modern btn-dark">Apply</a>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="btn btn-modern btn-dark">Apply</a>
+                                    <a href="javascript:;" class="btn btn-modern btn-dark">Apply</a>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="btn btn-modern btn-dark">Apply</a>
+                                    <a href="javascript:;" class="btn btn-modern btn-dark">Apply</a>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="btn btn-modern btn-dark">Apply</a>
+                                    <a href="javascript:;" class="btn btn-modern btn-dark">Apply</a>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,8 @@
                         <section class="toggle active">
                             <a class="toggle-title">Our Benefits</a>
                             <div class="toggle-content" style="display: block;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc
+                                    <a href="javascript:;">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet.</p>
                             </div>
                         </section>
                         <section class="toggle">

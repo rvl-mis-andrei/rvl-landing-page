@@ -35,9 +35,8 @@
                             <hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700" style="animation-delay: 700ms;">
                         </div>
                         <p class="font-weight-light text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450" style="animation-delay: 450ms;">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+                            {{-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. --}}
                         </p>
                     </div>
                 </div>
@@ -75,11 +74,11 @@
                                             <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                                 <span class="thumb-info-swap-content-wrapper">
                                                     <span class="thumb-info-inner text-3-5 pb-2">
-                                                        Cargo Delivery Services
+                                                        Motorcycle Carrier Services
                                                     </span>
                                                     <span class="thumb-info-inner text-2">
                                                         <p class="px-5 text-2 opacity-7 font-weight-medium text-light ls-0">
-                                                            <h4 class="font-weight-bold text-light mb-3">MOTORCYCLE CARRIER</h4>
+                                                            <h4 class="font-weight-bold text-light mb-3">Motorcycle Carrier Services</h4>
                                                             <ul class="list list-icons list-primary font-weight-medium mt-3 text-start">
                                                                 <li><i class="fas fa-check text-color-primary"></i> 37 Units</li>
                                                             </ul>
@@ -97,11 +96,11 @@
                                             <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                                 <span class="thumb-info-swap-content-wrapper">
                                                     <span class="thumb-info-inner text-3-5 pb-2">
-                                                        Motorcycle Carrier Services
+                                                        Cargo Delivery Services
                                                     </span>
                                                     <span class="thumb-info-inner text-2">
                                                         <p class="px-5 text-2 opacity-7 font-weight-medium text-light ls-0">
-                                                            <h4 class="font-weight-bold text-light mb-3">Motorcycle Carrier Services</h4>
+                                                            <h4 class="font-weight-bold text-light mb-3"></h4>
                                                             <ul class="list list-icons list-primary font-weight-medium mt-3 text-start">
                                                                 <li><i class="fas fa-check text-color-primary"></i> 26 Units</li>
                                                             </ul>
@@ -155,8 +154,8 @@
                         <hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700" style="animation-delay: 700ms;">
                     </div>
                     <p class="font-weight-light text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450" style="animation-delay: 450ms;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        {{-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. --}}
                     </p>
                 </div>
             </div>
@@ -286,7 +285,7 @@
         </div>
     </section>
 
-    <section class="section section-footer section-no-background border-1 pt-0 mt-0">
+    {{-- <section class="section section-footer section-no-background border-1 pt-0 mt-0">
         <div class="container-fluid">
             <div class="row pb-0">
                 <div class="col">
@@ -319,7 +318,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </div>
 
 @endsection

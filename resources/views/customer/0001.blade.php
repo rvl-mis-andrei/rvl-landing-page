@@ -532,7 +532,7 @@
         </div>
 
         {{-- START FAQ --}}
-        <section class="section section-no-background section-footer border-1 pt-5 mt-0 px-3 mb-0 pb-0">
+        {{-- <section class="section section-no-background section-footer border-1 pt-5 mt-0 px-3 mb-0 pb-0">
             <div class="container pt-4 pb-5">
                 <div class="row py-4">
                     <div class="col-lg-6">
@@ -568,7 +568,7 @@
                                 <div class="card-header" id="collapse100HeadingOne">
                                     <h4 class="card-title m-0">
                                         <a class="accordion-toggle text-color-dark font-weight-bold border-radius text-3-5 collapsed" data-bs-toggle="collapse" data-bs-target="#collapse100One" aria-expanded="false" aria-controls="collapse100One">
-                                            1 - Tristique sit amet condim vel?
+                                            1 - Who ?
                                         </a>
                                     </h4>
                                 </div>
@@ -638,7 +638,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         {{-- END FAQ --}}
 
         {{-- START SLIDER CUSTOMER LOGO --}}

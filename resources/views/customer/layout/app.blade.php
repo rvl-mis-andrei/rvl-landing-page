@@ -55,7 +55,7 @@
         </style>
 
 	</head>
-	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 300, 'effect': 'default'}">
+	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 100, 'effect': 'default'}">
 		<div class="loading-overlay">
             <div class="bounce-loader">
                 <div class="cssload-speeding-wheel-container">
@@ -96,8 +96,8 @@
         <script src="{{ asset('customer/js/main.js') }}" type="module"></script>
 
 
-        <script src="{{ asset('customer/js/view.shop.js') }}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        {{-- <script src="{{ asset('customer/js/view.shop.js') }}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> --}}
 		{{-- <script  async src="{{ asset('customer/js/gallery.js') }}"></script> --}}
 
 	</body>
