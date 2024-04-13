@@ -17,7 +17,7 @@ class PreventRequestsDuringMaintenance extends Middleware
         'laravel0002/home',
         'laravel0002/about-us',
         'laravel0002/services',
-        'laravel0002/careers',
+        // 'laravel0002/careers',
         'laravel0002/contact- us',
         'laravel0002/activities',
     ];
