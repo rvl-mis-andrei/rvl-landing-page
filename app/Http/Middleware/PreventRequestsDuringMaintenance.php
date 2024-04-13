@@ -12,14 +12,22 @@ class PreventRequestsDuringMaintenance extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        '/',
-        'page-data',
-        'create',
-        'home',
-        'about-us',
-        'services',
-        // 'careers',
-        'contact- us',
-        'activities',
+        'laravel0002/',
+        'laravel0002/create',
+        'laravel0002/home',
+        'laravel0002/about-us',
+        'laravel0002/services',
+        'laravel0002/careers',
+        'laravel0002/contact- us',
+        'laravel0002/activities',
     ];
+
+
+    // Route::get('/', 'page')->name('home');
+    // Route::get('/about-us', 'page')->name('about_us');
+    // Route::get('/products', 'page')->name('products');
+    // Route::get('/services', 'page')->name('services');
+    // Route::get('/careers', 'page')->name('careers');
+    // Route::get('/contact-us', 'page')->name('contact_us');
+    // Route::get('/activities', 'page')->name('activities');
 }
