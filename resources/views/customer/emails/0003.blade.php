@@ -124,14 +124,14 @@
 </head>
 
 <body>
-
     <table class="email-wrapper" role="presentation" cellspacing="0" cellpadding="0" border="0">
         <tr>
             <td align="center">
                 <table class="email-content" role="presentation" cellspacing="0" cellpadding="0" border="0">
                     <tr>
                         <td class="email-header">
-                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSrsOklb9IEf4VnKa_maSAr6ilGsAqwUaWOwzKhcGsIn4j3IxSxaBfn9Hp4p3xaOrD1145Izwnswocj8j8xQt0WhEOGRyarUsJJxeg_s2YcN-1q6p6bkGUZIAer-OQBVXrd4qVyFCwJolYk1QQwpXGjRLe_DgYxRE6aYJz7Ua9M0qpVEf7Wk8YgddNToJx/s320/EC%20LOGO.png" class="logo" alt="Laravel Logo">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSrsOklb9IEf4VnKa_maSAr6ilGsAqwUaWOwzKhcGsIn4j3IxSxaBfn9Hp4p3xaOrD1145Izwnswocj8j8xQt0WhEOGRyarUsJJxeg_s2YcN-1q6p6bkGUZIAer-OQBVXrd4qVyFCwJolYk1QQwpXGjRLe_DgYxRE6aYJz7Ua9M0qpVEf7Wk8YgddNToJx/s320/EC%20LOGO.png"
+                            class="logo" alt="Laravel Logo">
                         </td>
                     </tr>
                     <tr>
