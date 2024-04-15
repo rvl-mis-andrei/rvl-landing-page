@@ -34,7 +34,9 @@ use Illuminate\Support\Facades\View;
 //     return response($emailContent);
 // });
 
-
+Route::get('/', function(){
+    return phpinfo();
+});
 
 
 // CUSTOMER
