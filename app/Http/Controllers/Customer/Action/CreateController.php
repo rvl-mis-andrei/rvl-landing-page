@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Customer\Action;
 
 use App\Http\Controllers\Controller;
+use App\Mail\ContactUs;
 use App\Mail\RequestQuotationCreated;
 use App\Models\CustomerRequest\RequestInfo;
 use App\Models\CustomerRequest\RequestProduct;
@@ -19,7 +20,7 @@ use Symfony\Component\HttpFoundation\RequestStack;
 class CreateController extends Controller
 {
     protected function res_message($index)
-    {   
+    {
         $array_res = array(
             'Request Denied. Multiple Pending Request is Found.',
             'Your request has been successfully sent. You will receive an email with further details shortly.',
@@ -38,6 +39,10 @@ class CreateController extends Controller
 
                 case 'request-quotation':
                     $res = $this->_createRequestQuotation($request);
+                break;
+
+                case 'contact-us':
+                    $res = $this->_createContactUs($request);
                 break;
 
                 default:
@@ -156,5 +161,24 @@ class CreateController extends Controller
             }
 
         }
+    }
+
+    public function _createContactUs($request)
+    {
+        $inputs = [
+            'subject' => 'required',
+            'fullname' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+        ];
+
+        $this->_validateInputs($request, $inputs);
+
+        Mail::to($request->email)->bcc('info@rvlmovers.com')->later(
+            now()->addMinutes(3),
+            new ContactUs($request->subject,$request->fullname,$request->email,$request->message)
+        );
+        
+        return ['status'=>'success','message'=>$this->res_message(1)];
     }
 }

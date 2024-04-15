@@ -9,26 +9,25 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class RequestQuotationCreated extends Mailable
+class ContactUs extends Mailable
 {
     use Queueable, SerializesModels;
 
     /**
      * Create a new message instance.
      */
-    public $fullname;
-    public $product;
-    public $product_type;
-    public $specs;
-    public $rq_id;
 
-    public function __construct($fullname, $product, $product_type, $specs,$rq_id)
+    private $subject;
+    private $fullname;
+    private $email;
+    private $message;
+
+    public function __construct($subject,$fullname,$email,$message)
     {
+        $this->subject = $subject;
         $this->fullname = $fullname;
-        $this->product = $product;
-        $this->product_type = $product_type;
-        $this->specs = $specs;
-        $this->rq_id =$rq_id;
+        $this->email = $email;
+        $this->message = $message;
     }
 
     /**
@@ -37,23 +36,22 @@ class RequestQuotationCreated extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Request Quotation',
+            subject: 'Contact Us',
         );
     }
 
     /**
      * Get the message content definition.
      */
-
     public function content(): Content
     {
         return new Content(
-            view: 'customer.emails.0003',
+            view: 'customer.emails.0007',
             with: [
+                'subject' => $this->subject,
                 'fullname' => $this->fullname,
-                'product' => $this->product,
-                'product_type' => $this->product_type,
-                'specs' => $this->specs,
+                'email' => $this->email,
+                'message' => $this->message,
             ],
         );
     }
