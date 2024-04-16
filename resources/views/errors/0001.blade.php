@@ -7,7 +7,51 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>404</title>
+  <title>{{ $status }}</title>
+
+  <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
+        <meta content="{{ csrf_token() }}" name="csrf-token" id="csrf-token">
+
+		<title>@yield('title')</title>
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+		<!-- Web Fonts  -->
+		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&amp;display=swap" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="{{ asset('customer/vendor/bootstrap/css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/fontawesome-free/css/all.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/animate/animate.compat.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/simple-line-icons/css/simple-line-icons.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.carousel.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/magnific-popup/magnific-popup.min.css') }}">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="{{ asset('customer/css/theme.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/css/theme-elements.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/css/theme-blog.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/css/theme-shop.css') }}">
+
+		<!-- Revolution Slider CSS -->
+		<link rel="stylesheet" href="{{ asset('customer/vendor/rs-plugin/css/settings.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/rs-plugin/css/layers.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/rs-plugin/css/navigation.css') }}">
+
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="{{ asset('customer/vendor/circle-flip-slideshow/css/component.css') }}">
+		<link id="skinCSS" rel="stylesheet" href="{{ asset('customer/css/default.css') }}">
 
   <style id="" media="all">
     /* cyrillic-ext */
@@ -53,7 +97,8 @@
 
     .notfound .notfound-404 {
       position: relative;
-      height: 240px
+      height: 240px;
+      /* margin-bottom:25px; */
     }
 
     .notfound .notfound-404 h1 {
@@ -125,6 +170,7 @@
       }
     }
   </style>
+
   <meta name="robots" content="noindex, follow">
 </head>
 
@@ -132,13 +178,16 @@
   <div id="notfound">
     <div class="notfound">
       <div class="notfound-404">
-        <h3>Oops!</h3>
-        <h1><span>{{ $status[0]}}</span><span>{{ $status[1]}}</span><span>{{ $status[2]}}</span></h1>
+        <img width="250" height="50" src="{{ asset('customer/logo/rvl_logo.png') }}" class="img-fluid" alt="">
+            <h3 class="mb-0">MAINTENANCE MODE</h3>
+            <p class="text-3 my-3 line-height-8">
+                The website is undergoing some scheduled maintenance.<br>Please come back later.
+            </p>
+        </div>
+        {{-- <div class="mt-5">
+            <a class="btn btn-primary rounded-5 fw-bolder" href="{{ route($return_url) }}">{{ $return_at }}</a>
+        </div> --}}
       </div>
-
-      <h2>{{ $message }}</h2>
-
-      <a href="{{ route($return_url) }}"><h3> {{ $return_at }} </h3></a>
     </div>
   </div>
 </body>

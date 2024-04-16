@@ -12,14 +12,14 @@ class PreventRequestsDuringMaintenance extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        '/',
-        'create',
-        'home',
-        'about-us',
-        'services',
+        // '/',
+        // 'create',
+        // 'home',
+        // 'about-us',
+        // 'services',
         // 'careers',
-        'contact-us',
-        'activities',
+        // 'contact-us',
+        // 'activities',
     ];
 
 
