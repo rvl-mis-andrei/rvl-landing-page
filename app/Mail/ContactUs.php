@@ -17,15 +17,15 @@ class ContactUs extends Mailable
      * Create a new message instance.
      */
 
-    private $subject;
-    private $fullname;
-    private $email;
-    private $message;
+    public $subject;
+    public $name;
+    public $email;
+    public $message;
 
-    public function __construct($subject,$fullname,$email,$message)
+    public function __construct($subject,$name,$email,$message)
     {
         $this->subject = $subject;
-        $this->fullname = $fullname;
+        $this->name = $name;
         $this->email = $email;
         $this->message = $message;
     }
@@ -36,7 +36,7 @@ class ContactUs extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Contact Us',
+            subject: $this->subject,
         );
     }
 
@@ -49,7 +49,7 @@ class ContactUs extends Mailable
             view: 'customer.emails.0007',
             with: [
                 'subject' => $this->subject,
-                'fullname' => $this->fullname,
+                'fullname' => $this->name,
                 'email' => $this->email,
                 'message' => $this->message,
             ],

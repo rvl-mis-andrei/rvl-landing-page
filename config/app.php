@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Exelpack Corporation'),
+    'name' => env('APP_NAME', 'RVL Movers Corporation'),
 
     /*
     |--------------------------------------------------------------------------

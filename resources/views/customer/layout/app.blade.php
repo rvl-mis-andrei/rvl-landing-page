@@ -13,8 +13,8 @@
 		<title>@yield('title')</title>
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		{{-- <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon" /> --}}
+		{{-- <link rel="apple-touch-icon" href="img/apple-touch-icon.png"> --}}
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -95,9 +95,8 @@
         <script>var assetUrl = "{{ asset('') }}";</script>
         <script src="{{ asset('customer/js/main.js') }}" type="module"></script>
 
-
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         {{-- <script src="{{ asset('customer/js/view.shop.js') }}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> --}}
 		{{-- <script  async src="{{ asset('customer/js/gallery.js') }}"></script> --}}
 
 	</body>

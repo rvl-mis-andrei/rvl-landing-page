@@ -51,7 +51,7 @@ class Handler extends ExceptionHandler
         if ($this->isHttpException($exception)) {
             $status_code = $exception->getStatusCode();
             if (in_array($status_code,[404,503])) {
-                return response()->view( 'errors.0001', $this->message[$status_code],503 );
+                return response()->view( 'errors.0001', $this->message[$status_code],503);
             }
         }
         return parent::render($request, $exception);

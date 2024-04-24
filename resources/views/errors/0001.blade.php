@@ -16,7 +16,7 @@
         <meta http-equiv='pragma' content='no-cache'>
         <meta content="{{ csrf_token() }}" name="csrf-token" id="csrf-token">
 
-		<title>@yield('title')</title>
+		<title>Maintenance Mode</title>
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />

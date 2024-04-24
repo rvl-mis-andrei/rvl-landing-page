@@ -5,12 +5,14 @@ namespace App\Http\Controllers\Customer\Action;
 use App\Http\Controllers\Controller;
 use App\Mail\ContactUs;
 use App\Mail\RequestQuotationCreated;
+use App\Models\CustomerRequest\ContactUs as ContactUsModel;
 use App\Models\CustomerRequest\RequestInfo;
 use App\Models\CustomerRequest\RequestProduct;
 use App\Models\CustomerRequest\RequestQuotation;
 use App\Models\CustomerRequest\RequestStatus;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\View;
@@ -167,18 +169,47 @@ class CreateController extends Controller
     {
         $inputs = [
             'subject' => 'required',
-            'fullname' => 'required',
+            'name' => 'required',
             'email' => 'required|email',
             'message' => 'required',
         ];
 
         $this->_validateInputs($request, $inputs);
 
-        Mail::to($request->email)->bcc('info@rvlmovers.com')->later(
-            now()->addMinutes(3),
-            new ContactUs($request->subject,$request->fullname,$request->email,$request->message)
-        );
-        
-        return ['status'=>'success','message'=>$this->res_message(1)];
+        try{
+            DB::beginTransaction();
+
+            $device = $this->_device();
+            $ip_addr = $request->ip();
+
+            $count = ContactUsModel::where('ip_address',$ip_addr)
+            ->whereJsonContains('device_details', $device)
+            ->where('email',$request->email)
+            ->whereDate('created_at', today())
+            ->count();
+
+            if ($count >= 1) {
+                return ['status'=>'error','message'=>'You have already sent a message today'];
+            }
+            ContactUsModel::create([
+                'email' => $request->email,
+                'subject' => $request->subject,
+                'name' => $request->name,
+                'message' => $request->message,
+                'ip_address' => $ip_addr,
+                'device_details' => $device,
+            ]);
+
+            Mail::to($request->email)->bcc('info@rvlmovers.com')->later(
+                now()->addMinutes(3),
+                new ContactUs($request->subject,$request->name,$request->email,$request->message)
+            );
+
+            DB::commit();
+            return ['status'=>'success','message'=>$this->res_message(1)];
+        }catch(\Exception $e){
+            DB::rollback();
+            return ['status'=>'error','message'=>$e->getMessage()];
+        }
     }
 }

@@ -24,23 +24,13 @@ class Controller extends BaseController
 
     public function _device()
     {
-
         $agent   = new Agent();
-
         $platform       = $agent->platform();
         $platform_ver   = $agent->version($platform);
-
         $browser        = $agent->browser();
         $browser_ver    = $agent->version($browser);
-
         $device         = $agent->device();
-
-        return [
-            'os'=>$platform.'['.$platform_ver.']',
-            'browser'=>$browser.'['.$browser_ver.']',
-            'device'=>$device
-        ];
-
+        return json_encode([ 'os'=>$platform.'['.$platform_ver.']', 'browser'=>$browser.'['.$browser_ver.']', 'device'=>$device ]);
     }
 
     public function quickRandom($length = 10)

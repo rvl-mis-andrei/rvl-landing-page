@@ -55,8 +55,6 @@ Route::group(['middleware'=>['customer']], function() {
         Route::get('/contact-us', 'page')->name('contact_us');
         Route::get('/activities', 'page')->name('activities');
 
-
-
         Route::get('/product-info/{type}/{name}', 'page')->name('product_info');
         Route::get('/request-quotation', 'page')->name('request_quotation');
 
@@ -66,6 +64,7 @@ Route::group(['middleware'=>['customer']], function() {
 
 // REFRESH TOKEN
 Route::get('csrf', function(){ return csrf_token(); });
+Route::get('email-view', function(){ return view('customer.emails.0007'); });
 
 //GET CUSTOMER PAGE
 Route::get('customer/landing-page', function(){ return csrf_token(); });

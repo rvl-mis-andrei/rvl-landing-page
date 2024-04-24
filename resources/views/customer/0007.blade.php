@@ -10,7 +10,6 @@
                 <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
                     <h1 class="fs-5 mb-0 pb-0">Contact <strong>Us</strong></h1>
                     {{-- <p class="custom-font-secondary custom-font-size-1 mb-0 pb-0 text-white">Selection of Packaging Product</p> --}}
-
                 </div>
                 <div class="col-md-4 order-1 order-md-2 align-self-center">
                     <ul class="breadcrumb breadcrumb-light d-block text-md-end">
@@ -36,39 +35,38 @@
             <h2 class="font-weight-bold text-7 mt-2 mb-0">Contact Us</h2>
             <p class="mb-4">Feel free to ask for details, don't save any questions!</p>
 
-            <form id="contactFormAdvanced"
-                action="#" method="POST"
-                enctype="multipart/form-data" novalidate="novalidate">
+                <form class="contact-form form-with-icons" enctype="multipart/form-data"
+                id="contact-form" data-url="create" action="contact-us" method="POST" novalidate="novalidate">
                 <div class="row">
                     <div class="form-group col-md-12">
                         <label class="form-label mb-1 text-2">Subject</label>
-                        <input type="text" value="" class="form-control text-3 h-auto py-2" name="subject" required="">
+                        <input type="text" class="form-control text-3 h-auto py-2" name="subject" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-md-6">
                         <label class="form-label mb-1 text-2">Full Name</label>
-                        <input type="text" value=""
-                            class="form-control text-3 h-auto py-2" name="name" id="name" required="">
+                        <input type="text"
+                            class="form-control text-3 h-auto py-2" name="name" id="name" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label class="form-label mb-1 text-2">Email Address</label>
-                        <input type="email" value="" data-msg-required="Please enter your email address."
+                        <input type="email" data-msg-required="Please enter your email address."
                             data-msg-email="Please enter a valid email address." maxlength="100"
-                            class="form-control text-3 h-auto py-2" name="email" id="email" required="">
+                            class="form-control text-3 h-auto py-2 email" name="email" id="email" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-md-12 mb-4">
                         <label class="form-label mb-1 text-2">Message</label>
                         <textarea maxlength="5000" data-msg-required="Please enter your message." rows="6"
-                            class="form-control text-3 h-auto py-2" name="message" id="message" required=""></textarea>
+                            class="form-control text-3 h-auto py-2" name="message" id="message" required></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-md-12 mb-5">
-                        <input type="submit" id="contactFormSubmit" value="Send Message"
-                            class="btn btn-primary btn-modern pull-right" data-loading-text="Loading...">
+                        <button type="submit" class="btn btn-primary btn-modern pull-right" >Send Message
+                        </button>
                     </div>
                 </div>
             </form>

@@ -10,7 +10,7 @@
         <div class="slider-container rev_slider_wrapper" style="height: 670px;">
             <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
                 <ul>
-                    {{-- <li class="slide-overlay" data-transition="fade">
+                    <li class="slide-overlay" data-transition="fade">
                         <img src="{{ asset('customer/web_img/slide-bg.jpg') }}"
                             alt=""
                             data-bgposition="center center"
@@ -26,7 +26,7 @@
                             data-width="['auto']"
                             data-height="['auto']"
                             data-basealign="slide">
-                            <img src="{{ asset('customer/web_img/slide-rvl-1.png') }}" alt=""></div>
+                            <img src="{{ asset('customer/web_img/slide-rvl-2.png') }}" alt=""></div>
 
                         <div class="tp-caption tp-resizeme rs-parallaxlevel-7"
                             data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"opacity:0;x:-50%;y:-50%;","to":"opacity:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -82,62 +82,9 @@
                             data-start="700"
                             style="color: #ffffff;">CAR CARRIER, CARGO DELIVERY, MOTORCYCLE CARRIER AND BROKERAGE SERVICES</div>
 
-                    </li> --}}
-                    <li class="slide-overlay" data-transition="fade">
-                        <img src="{{ asset('customer/web_img/slide-rvl-2.png') }}"
-                            alt=""
-                            data-bgposition="center center"
-                            data-bgfit="cover"
-                            data-bgrepeat="no-repeat"
-                            class="rev-slidebg">
-
-                        <div class="tp-caption"
-                            data-x="center" data-hoffset="['-120','-120','-120','-520']"
-                            data-y="center" data-voffset="['-50','-50','-50','-75']"
-                            data-start="1000"
-                            data-transform_in="x:[-300%];opacity:0;s:500;"
-                            data-transform_idle="opacity:0.2;s:500;"><img src="{{ asset('customer/web_img/slide-title-border.png') }}" alt=""></div>
-
-                        <div class="tp-caption text-color-light font-weight-normal"
-                            data-x="center"
-                            data-y="center" data-voffset="['-50','-50','-50','-75']"
-                            data-start="700"
-                            data-fontsize="['18','18','18','40']"
-                            data-lineheight="['25','25','25','45']"
-                            data-transform_in="y:[-50%];opacity:0;s:500;">WELCOME TO</div>
-
-
-
-                        <div class="tp-caption"
-                            data-x="center" data-hoffset="['120','120','120','320']"
-                            data-y="center" data-voffset="['-50','-50','-50','-75']"
-                            data-start="1000"
-                            data-transform_in="x:[300%];opacity:0;s:500;"
-                            data-transform_idle="opacity:0.2;s:500;"><img src="{{ asset('customer/web_img/slide-title-border.png') }}" alt=""></div>
-
-                        <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
-                            data-x="center"
-                            data-y="center"
-                            data-transform_in="y:[-50%];opacity:0;s:500;"
-                            data-start="700"
-                            data-fontsize="['70','70','70','110']"
-                            data-lineheight="['75','75','75','115']">{{ env('APP_WEBSITE') }}</div>
-
-                        <div class="tp-caption font-weight-light ws-normal text-center"
-                            data-x="center"
-                            data-y="center" data-voffset="['80','80','80','125']"
-                            data-width="['530','530','530','1100']"
-                            data-fontsize="['18','18','18','40']"
-                            data-lineheight="['26','26','26','45']"
-                            data-transform_in="y:[-50%];opacity:0;s:500;"
-                            data-start="700"
-                            style="color: #b5b5b5;">
-                            CAR CARRIER, CARGO DELIVERY, MOTORCYCLE CARRIER & BROKERAGE SERVICES
-                        </div>
-
                     </li>
-                    {{-- <li class="slide-overlay" data-transition="fade">
-                        <img src="{{ asset('customer/web_img/slide-rvl-2.png') }}"
+                    <li class="" data-transition="fade">
+                        <img src="{{ asset('customer/web_img/slide-rvl-1.png') }}"
                             alt=""
                             data-bgposition="center center"
                             data-bgfit="cover"
@@ -157,7 +104,7 @@
                             data-start="700"
                             data-fontsize="['16','16','16','40']"
                             data-lineheight="['25','25','25','45']"
-                            data-transform_in="y:[-50%];opacity:0;s:500;">What we Are</div>
+                            data-transform_in="y:[-50%];opacity:0;s:500;">SERVICES</div>
 
                         <div class="tp-caption"
                             data-x="center" data-hoffset="['170','170','170','350']"
@@ -172,7 +119,7 @@
                             data-transform_in="y:[-50%];opacity:0;s:500;"
                             data-start="700"
                             data-fontsize="['50','50','50','90']"
-                            data-lineheight="['55','55','55','95']">Safe and Quality Trucking Services</div>
+                            data-lineheight="['55','55','55','95']">CAR CARRIER SERVICES</div>
 
                         <div class="tp-caption font-weight-light ws-normal text-center"
                             data-x="center"
@@ -182,13 +129,13 @@
                             data-lineheight="['26','26','26','45']"
                             data-transform_in="y:[-50%];opacity:0;s:500;"
                             data-start="700"
-                            style="color: #b5b5b5;">
-                            CAR CARRIER, CARGO DELIVERY, MOTORCYCLE CARRIER AND BROKERAGE SERVICES
+                            style="color: #ffffff;">
+                            COVERING LUZON, VISAYAS & MINDANAO
                         </div>
 
                     </li>
-                    <li class="slide-overlay" data-transition="fade">
-                        <img src="{{ asset('customer/web_img/slide-bg-6.jpg') }}"
+                    <li class="" data-transition="fade">
+                        <img src="{{ asset('customer/web_img/slide-rvl-3.png') }}"
                             alt=""
                             data-bgposition="center center"
                             data-bgfit="cover"
@@ -196,43 +143,49 @@
                             class="rev-slidebg">
 
                         <div class="tp-caption"
-                            data-x="center" data-hoffset="['-200','-200','-200','-520']"
-                            data-y="center" data-voffset="['-80','-80','-80','-130']"
+                            data-x="center" data-hoffset="['-170','-170','-170','-350']"
+                            data-y="center" data-voffset="['-50','-50','-50','-75']"
                             data-start="1000"
                             data-transform_in="x:[-300%];opacity:0;s:500;"
                             data-transform_idle="opacity:0.2;s:500;"><img src="{{ asset('customer/web_img/slide-title-border.png') }}" alt=""></div>
 
                         <div class="tp-caption text-color-light font-weight-normal"
                             data-x="center"
-                            data-y="center" data-voffset="['-80','-80','-80','-130']"
+                            data-y="center" data-voffset="['-50','-50','-50','-75']"
                             data-start="700"
                             data-fontsize="['16','16','16','40']"
                             data-lineheight="['25','25','25','45']"
-                            data-transform_in="y:[-50%];opacity:0;s:500;">TRUSTED BY CLIENTS</div>
-
+                            data-transform_in="y:[-50%];opacity:0;s:500;">AFFILIATED COMPANIES</div>
 
                         <div class="tp-caption"
-                            data-x="center" data-hoffset="['200','200','200','320']"
-                            data-y="center" data-voffset="['-80','-80','-80','-130']"
+                            data-x="center" data-hoffset="['170','170','170','350']"
+                            data-y="center" data-voffset="['-50','-50','-50','-75']"
                             data-start="1000"
                             data-transform_in="x:[300%];opacity:0;s:500;"
                             data-transform_idle="opacity:0.2;s:500;"><img src="{{ asset('customer/web_img/slide-title-border.png') }}" alt=""></div>
 
-                        <div class="tp-caption font-weight-extra-bold text-color-light"
-                            data-frames='[{"delay":1300,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                        <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
                             data-x="center"
                             data-y="center"
-                            data-fontsize="['100','100','100','200']"
-                            data-lineheight="['150','150','150','260']">RVL Movers Corporation</div>
+                            data-transform_in="y:[-50%];opacity:0;s:500;"
+                            data-start="700"
+                            data-fontsize="['50','50','50','90']"
+                            data-lineheight="['55','55','55','95']">3 JUPITER PROPERTY DEVELOPMENT</div>
 
-                        <div class="tp-caption font-weight-light text-color-light"
-                            data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                        <div class="tp-caption font-weight-light ws-normal text-center"
                             data-x="center"
-                            data-y="center" data-voffset="['85','85','85','140']"
+                            data-y="center" data-voffset="['60','60','60','105']"
+                            data-width="['530','530','530','1100']"
                             data-fontsize="['18','18','18','40']"
-                            data-lineheight="['26','26','26','45']">The best choice for your business</div>
+                            data-lineheight="['26','26','26','45']"
+                            data-transform_in="y:[-50%];opacity:0;s:500;"
+                            data-start="700"
+                            style="color: #ffffff;">
+                            PROPERTY DEVELOPMENT AND YARD RENTALS
+                        </div>
 
-                    </li> --}}
+                    </li>
+
                 </ul>
             </div>
         </div>
