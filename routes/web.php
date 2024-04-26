@@ -63,7 +63,7 @@ Route::group(['middleware'=>['customer']], function() {
 
 Route::get('/test-database', function () {
     try {
-        \DB::connection()->getPdo();
+        DB::connection()->getPdo();
         echo "Database connection is established.";
     } catch (\Exception $e) {
         die("Could not connect to the database. Error: " . $e->getMessage());

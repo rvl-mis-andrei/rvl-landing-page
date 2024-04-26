@@ -183,14 +183,15 @@ class CreateController extends Controller
             $ip_addr = $request->ip();
 
             $count = ContactUsModel::where('ip_address',$ip_addr)
-            ->whereJsonContains('device_details', $device)
             ->where('email',$request->email)
             ->whereDate('created_at', today())
             ->count();
 
-            if ($count >= 1) {
-                return ['status'=>'error','message'=>'You have already sent a message today'];
+            if ($count >= 5) {
+                return ['status'=>'info','title'=>'Oopps','message'=>'You reach the limit of sending email today. Thank you'];
+                exit(0);
             }
+
             ContactUsModel::create([
                 'email' => $request->email,
                 'subject' => $request->subject,
@@ -200,16 +201,16 @@ class CreateController extends Controller
                 'device_details' => $device,
             ]);
 
-            Mail::to($request->email)->bcc('info@rvlmovers.com')->later(
-                now()->addMinutes(3),
-                new ContactUs($request->subject,$request->name,$request->email,$request->message)
-            );
+            // Mail::to($request->email)->bcc('info@rvlmovers.com')->later(
+            //     now()->addMinutes(3),
+            //     new ContactUs($request->subject,$request->name,$request->email,$request->message)
+            // );
 
             DB::commit();
-            return ['status'=>'success','message'=>$this->res_message(1)];
+            return ['status'=>'success','title'=>"Thank You",'message'=>$this->res_message(1)];
         }catch(\Exception $e){
             DB::rollback();
-            return ['status'=>'error','message'=>$e->getMessage()];
+            return ['status'=>'error','message'=>$this->res_message(2)];
         }
     }
 }

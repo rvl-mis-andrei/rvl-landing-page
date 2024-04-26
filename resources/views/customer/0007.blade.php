@@ -65,7 +65,7 @@
                 </div>
                 <div class="row">
                     <div class="form-group col-md-12 mb-5">
-                        <button type="submit" class="btn btn-primary btn-modern pull-right" >Send Message
+                        <button type="submit" class="btn btn-primary btn-send-message btn-modern pull-right" >Send Message
                         </button>
                     </div>
                 </div>

@@ -11,41 +11,56 @@ export async function _fnContactUs(){
                 e.preventDefault();
 
                 var isValid = true;
+                let submitCount = gs_getItem('btn-sm') || 0;
+                let letSubmit = submitCount < 5 ? true : false;
 
-                $("#contact-form input").each(function() {
-                    var value = $(this).val().trim();
-                    var $error_label = $(this).siblings('.validation-error');
+                if(parseInt(submitCount) < 5 && letSubmit == true ){
 
-                    if (value === "") {
-                        if (!$error_label.length) {
-                            $(this).after('<label class="error validation-error" for="fullname">This field is required.</label>');
+                    $("#contact-form input").each(function() {
+                        var value = $(this).val().trim();
+                        var $error_label = $(this).siblings('.validation-error');
+
+                        if (value === "") {
+                            if (!$error_label.length) {
+                                $(this).after('<label class="error validation-error" for="fullname">This field is required.</label>');
+                            }
+                            isValid = false;
+                            return false;
+                        } else if ($(this).hasClass("email") && !isValidEmail(value)) {
+                            $(this).next().empty();
+                            $(this).after('<label class="error validation-error">Email is invalid.</label>')
+                            isValid = false;
+                            return false
+                        } else {
+                            isValid = true;
+                            $error_label.remove();
                         }
-                        isValid = false;
-                    } else if ($(this).hasClass("email") && !isValidEmail(value)) {
-                        $(this).next().empty();
-                        $(this).after('<label class="error validation-error">Email is invalid.</label>')
-                        isValid = false;
-                    } else {
-                        isValid = true;
-                        $error_label.remove();
-                    }
-                });
+                    });
 
-                if (isValid) {
+                    if (isValid) {
 
-                    let url   = $('#contact-form').attr('data-url');
-                    let type  = $('#contact-form').attr('action');
-                    let form  = document.querySelector("#contact-form");
-                    if(form){
-                        gs_SweetAlert(
-                            'Send the Email?',
-                            "Double Check the form before sending",
-                            'question',
-                            'Yes, Send It',
-                            () => { _handleSubmitForm(form,type,url)  },
-                        )
+                        let url   = $('#contact-form').attr('data-url');
+                        let type  = $('#contact-form').attr('action');
+                        let form  = document.querySelector("#contact-form");
+                        if(form){
+                            gs_SweetAlert(
+                                'Send the Email?',
+                                "Double Check the form before sending",
+                                'question',
+                                'Yes, Send It',
+                                () => {
+                                    _handleSubmitForm(form,type,url)
+                                },
+                            )
+                        }
+
                     }
 
+                }else{
+                    Swal.fire("Oopps!",'You reach the limit of sending email today. Thank you', "info").then(function(result) {
+                        $('.btn-send-message').attr('disabled',true);
+                        letSubmit = false;
+                    });
                 }
             });
         }
@@ -75,12 +90,14 @@ export async function _fnContactUs(){
                             Swal.fire({
                                 text:res.message,
                                 icon:res.status,
-                                title:"Thank You",
+                                title:res.title,
                                 showCancelButton: false,
                                 confirmButtonText: "Ok, Got it",
                                 reverseButtons: true
                                 }).then(function(result) {
-
+                                    if(res.status == 'success'){
+                                        gs_sessionStorage('btn-sm', parseInt(gs_getItem('btn-sm')) + 1 || 1);
+                                    }
                                 });
                         }else{
                             Swal.fire({
