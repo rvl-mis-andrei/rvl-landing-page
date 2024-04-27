@@ -12,6 +12,7 @@ use App\Http\Controllers\CustomerService\PageController as CSPage;
 use App\Http\Controllers\CustomerService\DataController as CSPageData;
 use App\Http\Controllers\Customer\Action\CreateController as CSCreateData;
 use App\Http\Controllers\CustomerService\DatatableServerside as CSDatatableServerside;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\View;
 
 // Route::get('/preview-email', function () {
@@ -35,6 +36,11 @@ use Illuminate\Support\Facades\View;
 // });
 
 // CUSTOMER
+
+Route::get('/scheduled-email', function () {
+    Artisan::call('schedule:run');
+});
+
 Route::group(['middleware'=>['customer']], function() {
 
     Route::controller(CustomerPage::class)->group(function () {

@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('queue:listen --quiet')->everyThirtyMinutes();
+        $schedule->command('queue:listen --stop-when-empty')->everyThreeMinutes()->withoutOverlapping();
     }
 
     /**
