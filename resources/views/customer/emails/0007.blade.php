@@ -130,7 +130,7 @@
                 <table class="email-content" role="presentation" cellspacing="0" cellpadding="0" border="0">
                     <tr>
                         <td class="email-header">
-                            <img width="230" height="150" src="{{ asset('customer/logo/rvl_logo.png') }}" class="img-fluid" alt="">
+                            <img width="250" height="160" src="https://www.rvlmovers.com/customer/logo/rvl_logo.png" class="img-fluid" alt="">
                         </td>
                     </tr>
                     <tr>

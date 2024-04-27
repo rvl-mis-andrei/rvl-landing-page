@@ -37,10 +37,6 @@ use Illuminate\Support\Facades\View;
 
 // CUSTOMER
 
-Route::get('/scheduled-email', function () {
-    Artisan::call('schedule:run');
-});
-
 Route::group(['middleware'=>['customer']], function() {
 
     Route::controller(CustomerPage::class)->group(function () {
