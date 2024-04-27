@@ -14,7 +14,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('queue:listen')->everyThreeMinutes()->withoutOverlapping();
+        $schedule->command('queue:work')->everyThreeMinutes()->withoutOverlapping();
 
         Log::info('Cron job executed successfully.');
     }
