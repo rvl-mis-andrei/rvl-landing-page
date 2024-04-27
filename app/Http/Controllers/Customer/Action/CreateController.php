@@ -201,10 +201,12 @@ class CreateController extends Controller
                 'device_details' => $device,
             ]);
 
-            Mail::to($request->email)->bcc('info@rvlmovers.com')->later(
-                now()->addMinutes(3),
-                new ContactUs($request->subject,$request->name,$request->email,$request->message)
-            );
+            // Mail::to($request->email)->bcc('info@rvlmovers.com')->later(
+            //     now()->addMinutes(3),
+            //     new ContactUs($request->subject,$request->name,$request->email,$request->message)
+            // );
+
+            Mail::to($request->email)->bcc('info@rvlmovers.com')->send(new ContactUs($request->subject, $request->name, $request->email, $request->message));
 
             DB::commit();
             return ['status'=>'success','title'=>"Thank You",'message'=>$this->res_message(1)];
