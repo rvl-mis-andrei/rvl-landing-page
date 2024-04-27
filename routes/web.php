@@ -34,11 +34,6 @@ use Illuminate\Support\Facades\View;
 //     return response($emailContent);
 // });
 
-Route::get('/', function(){
-    return phpinfo();
-});
-
-
 // CUSTOMER
 Route::group(['middleware'=>['customer']], function() {
 
