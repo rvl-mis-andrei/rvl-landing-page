@@ -1,6 +1,6 @@
 @extends('customer.layout.app')
 
-@section('title', env('APP_WEBSITE').' - Careers')
+@section('title', 'RVL Movers Corporation - Careers')
 
 @section('content')
 <div role="main" class="main">

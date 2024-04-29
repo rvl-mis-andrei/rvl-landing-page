@@ -30,7 +30,6 @@
 		<link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.carousel.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('customer/vendor/magnific-popup/magnific-popup.min.css') }}">
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="{{ asset('customer/css/theme.css') }}">
@@ -48,6 +47,7 @@
 		<link id="skinCSS" rel="stylesheet" href="{{ asset('customer/css/default.css') }}">
         <link href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css " rel="stylesheet">
 
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 		<script src="{{ asset('customer/vendor/modernizr/modernizr.min.js') }}"></script>
 
         <style>

@@ -1,6 +1,6 @@
 @extends('customer.layout.app')
 
-@section('title', env('APP_WEBSITE').' - Home')
+@section('title', 'RVL Movers Corporation - Home')
 
 @section('content')
 
