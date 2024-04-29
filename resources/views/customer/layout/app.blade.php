@@ -13,7 +13,7 @@
 		<title>@yield('title')</title>
 
 		<!-- Favicon -->
-		{{-- <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon" /> --}}
+		<link rel="shortcut icon" href="{{ asset('customer/icons/rvl.ico') }}" type="image/x-icon" />
 		{{-- <link rel="apple-touch-icon" href="img/apple-touch-icon.png"> --}}
 
 		<!-- Mobile Metas -->
