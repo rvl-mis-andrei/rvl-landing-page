@@ -4,7 +4,7 @@
 
 @section('content')
 <div role="main" class="main">
-    <section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-5 p-4" style="background-image: url(customer/page-header/background-2.jpg);">
+    <section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-5 p-4" style="background-image: url(customer/page-header/background-2.webp);">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
@@ -28,7 +28,7 @@
                 <a href="#">
                     <article class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                         <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
-                            <img src="{{ asset('customer/web_img/activities/2-22-24/2-22-24-1.jpg') }}" class="img-fluid" alt="RVL Movers Corporation Trainees 1st Batch for the year 2024!">
+                            <img src="{{ asset('customer/web_img/activities/2-22-24/2-22-24-1.webp') }}" class="img-fluid" alt="RVL Movers Corporation Trainees 1st Batch for the year 2024!">
                             <div class="thumb-info-title bg-transparent p-4">
                                 <div class="thumb-info-type bg-color-primary px-2 mb-1">TRAINEES</div>
                                 <div class="thumb-info-inner mt-1">
@@ -47,7 +47,7 @@
                     <div class="row align-items-center pb-1">
                         <div class="col-sm-5">
                             <a href="javascript:;">
-                                <img src="{{ asset('customer/web_img/activities/2-6-24/2-6-24-1.jpg') }}" class="img-fluid border-radius-0" alt=" RVL MOVERS CORP - Christmas Party 2023">
+                                <img src="{{ asset('customer/web_img/activities/2-6-24/2-6-24-1.webp') }}" class="img-fluid border-radius-0" alt=" RVL MOVERS CORP - Christmas Party 2023">
                             </a>
                         </div>
                         <div class="col-sm-7 ps-sm-1">
@@ -67,7 +67,7 @@
                     <div class="row align-items-center pb-1">
                         <div class="col-sm-5">
                             <a href="javascript:;">
-                                <img src="{{ asset('customer/web_img/activities/10-23-23/10-23-23-1.jpg') }}" class="img-fluid border-radius-0" alt="Ranking the greatest players in basketball">
+                                <img src="{{ asset('customer/web_img/activities/10-23-23/10-23-23-1.webp') }}" class="img-fluid border-radius-0" alt="Ranking the greatest players in basketball">
                             </a>
                         </div>
                         <div class="col-sm-7 ps-sm-1">
@@ -89,7 +89,7 @@
                     <div class="row align-items-center pb-1">
                         <div class="col-sm-5">
                             <a href="javascript:;">
-                                <img src="{{ asset('customer/web_img/activities/10-11-23/10-11-23-1.jpg') }}" class="img-fluid border-radius-0" alt="FIRE SAFETY AWARENESS">
+                                <img src="{{ asset('customer/web_img/activities/10-11-23/10-11-23-1.webp') }}" class="img-fluid border-radius-0" alt="FIRE SAFETY AWARENESS">
                             </a>
                         </div>
                         <div class="col-sm-7 ps-sm-1">
@@ -116,7 +116,7 @@
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
-                                        <img src="{{ asset('customer/web_img/activities/9-13-23/9-13-23-1.jpg') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
+                                        <img src="{{ asset('customer/web_img/activities/9-13-23/9-13-23-1.webp') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
                                         <div class="thumb-info-title bg-transparent p-4">
                                             <div class="thumb-info-type bg-color-primary px-2 mb-1">SEMINAR</div>
                                             <div class="thumb-info-inner mt-1">
@@ -140,7 +140,7 @@
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
-                                        <img src="{{ asset('customer/web_img/activities/9-13-23/9-13-23-2.jpg') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
+                                        <img src="{{ asset('customer/web_img/activities/9-13-23/9-13-23-2.webp') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
                                         <div class="thumb-info-title bg-transparent p-4">
                                             <div class="thumb-info-type bg-color-primary px-2 mb-1">SEMINAR</div>
                                             <div class="thumb-info-inner mt-1">
@@ -164,7 +164,7 @@
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
-                                        <img src="{{ asset('customer/web_img/activities/9-13-23/9-13-23-3.jpg') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
+                                        <img src="{{ asset('customer/web_img/activities/9-13-23/9-13-23-3.webp') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
                                         <div class="thumb-info-title bg-transparent p-4">
                                             <div class="thumb-info-type bg-color-primary px-2 mb-1">SEMINAR</div>
                                             <div class="thumb-info-inner mt-1">
@@ -188,7 +188,7 @@
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
-                                        <img src="{{ asset('customer/web_img/activities/9-11-23/9-11-23-1.jpg') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
+                                        <img src="{{ asset('customer/web_img/activities/9-11-23/9-11-23-1.webp') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
                                         <div class="thumb-info-title bg-transparent p-4">
                                             <div class="thumb-info-type bg-color-primary px-2 mb-1">TRAINING</div>
                                             <div class="thumb-info-inner mt-1">
@@ -211,7 +211,7 @@
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
-                                        <img src="{{ asset('customer/web_img/activities/10-25-23/10-25-23-1.jpg') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
+                                        <img src="{{ asset('customer/web_img/activities/10-25-23/10-25-23-1.webp') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
                                         <div class="thumb-info-title bg-transparent p-4">
                                             <div class="thumb-info-type bg-color-primary px-2 mb-1">BIRTHDAY</div>
                                             <div class="thumb-info-inner mt-1">
@@ -234,7 +234,7 @@
                             <article>
                                 <div class="thumb-info thumb-info-no-borders thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom border-radius-0">
                                     <div class="thumb-info-wrapper thumb-info-wrapper-opacity-6">
-                                        <img src="{{ asset('customer/web_img/activities/8-26-23/8-26-23-1.jpg') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
+                                        <img src="{{ asset('customer/web_img/activities/8-26-23/8-26-23-1.webp') }}" class="img-fluid" alt="OSH MANDATORY SEMINAR">
                                         <div class="thumb-info-title bg-transparent p-4">
                                             <div class="thumb-info-type bg-color-primary px-2 mb-1">SEMINAR</div>
                                             <div class="thumb-info-inner mt-1">

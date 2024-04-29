@@ -27,8 +27,8 @@
 		<link rel="stylesheet" href="{{ asset('customer/vendor/fontawesome-free/css/all.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('customer/vendor/animate/animate.compat.css') }}">
 		<link rel="stylesheet" href="{{ asset('customer/vendor/simple-line-icons/css/simple-line-icons.min.css') }}">
-		{{-- <link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.carousel.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.theme.default.min.css') }}"> --}}
+		<link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.carousel.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('customer/vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('customer/vendor/magnific-popup/magnific-popup.min.css') }}">
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 

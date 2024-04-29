@@ -26,7 +26,7 @@
                             data-width="['auto']"
                             data-height="['auto']"
                             data-basealign="slide">
-                            <img src="{{ asset('customer/web_img/slide-rvl-2.png') }}" alt=""></div>
+                            <img src="{{ asset('customer/web_img/slide-rvl-2.webp') }}" alt=""></div>
 
                         <div class="tp-caption tp-resizeme rs-parallaxlevel-7"
                             data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"opacity:0;x:-50%;y:-50%;","to":"opacity:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -84,7 +84,7 @@
 
                     </li>
                     <li class="" data-transition="fade">
-                        <img src="{{ asset('customer/web_img/slide-rvl-1.png') }}"
+                        <img src="{{ asset('customer/web_img/slide-rvl-1.webp') }}"
                             alt=""
                             data-bgposition="center center"
                             data-bgfit="cover"
@@ -135,7 +135,7 @@
 
                     </li>
                     <li class="" data-transition="fade">
-                        <img src="{{ asset('customer/web_img/slide-rvl-3.png') }}"
+                        <img src="{{ asset('customer/web_img/slide-rvl-3.webp') }}"
                             alt=""
                             data-bgposition="center center"
                             data-bgfit="cover"
@@ -220,11 +220,11 @@
                     <div class="col-md-12 col-lg-6 mb-5 mb-lg-0">
                         <div class="row row-gutter-sm">
                             <div class="col-6">
-                                <img src="{{ asset('customer/web_img/about-us-1.png') }}" class="img-fluid box-shadow-5" alt="">
+                                <img src="{{ asset('customer/web_img/about-us-1.webp') }}" class="img-fluid box-shadow-5" alt="">
                             </div>
                             <div class="col-6">
-                                <img src="{{ asset('customer/web_img/about-us-2.png') }}" class="img-fluid box-shadow-5 mb-lg-4 mb-3" alt="">
-                                <img src="{{ asset('customer/web_img/about-us-3.png') }}" class="img-fluid box-shadow-5" alt="">
+                                <img src="{{ asset('customer/web_img/about-us-2.webp') }}" class="img-fluid box-shadow-5 mb-lg-4 mb-3" alt="">
+                                <img src="{{ asset('customer/web_img/about-us-3.webp') }}" class="img-fluid box-shadow-5" alt="">
                             </div>
                         </div>
                     </div>
@@ -300,7 +300,7 @@
                                 <div class="p-relative">
                                     <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                         <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                            <img src="{{ asset('customer/web_img/trucks/CAR_CARRIER_SERVICES.png') }}" class="img-fluid rounded" alt="">
+                                            <img src="{{ asset('customer/web_img/trucks/CAR_CARRIER_SERVICES.webp') }}" class="img-fluid rounded" alt="">
                                             <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                                 <span class="thumb-info-swap-content-wrapper">
                                                     <span class="thumb-info-inner text-3-5 pb-2">
@@ -322,7 +322,7 @@
                                 <div class="p-relative">
                                     <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                         <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                            <img src="{{ asset('customer/web_img/trucks/MOTOR_CARRIER_SERVICES.png') }}" class="img-fluid rounded" alt="">
+                                            <img src="{{ asset('customer/web_img/trucks/MOTOR_CARRIER_SERVICES.webp') }}" class="img-fluid rounded" alt="">
                                             <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                                 <span class="thumb-info-swap-content-wrapper">
                                                     <span class="thumb-info-inner text-3-5 pb-2">
@@ -348,7 +348,7 @@
                                 <div class="p-relative">
                                     <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                         <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                            <img src="{{ asset('customer/web_img/trucks/CARGO_TRUCK_SERVICES.png') }}" class="img-fluid rounded" alt="">
+                                            <img src="{{ asset('customer/web_img/trucks/CARGO_TRUCK_SERVICES.webp') }}" class="img-fluid rounded" alt="">
                                             <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                                 <span class="thumb-info-swap-content-wrapper">
                                                     <span class="thumb-info-inner text-3-5 pb-2">
@@ -373,7 +373,7 @@
                                 <div class="p-relative">
                                     <span class="thumb-info thumb-info-swap-content anim-hover-inner-wrapper">
                                         <span class="thumb-info-wrapper overlay overlay-show overlay-gradient-bottom-content">
-                                            <img src="{{ asset('customer/web_img/trucks/TRUCK_SERVICES_10W.png') }}" class="img-fluid rounded" alt="">
+                                            <img src="{{ asset('customer/web_img/trucks/TRUCK_SERVICES_10W.webp') }}" class="img-fluid rounded" alt="">
                                             <span class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0 text-center">
                                                 <span class="thumb-info-swap-content-wrapper">
                                                     <span class="thumb-info-inner text-3-5 pb-2">
@@ -458,7 +458,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6">
-                        <img src="{{ asset('customer/web_img/CAR_CARRIER_TRUCKS.png') }}" alt="" class="img-fluid box-shadow-5 rounded">
+                        <img src="{{ asset('customer/web_img/CAR_CARRIER_TRUCKS.webp') }}" alt="" class="img-fluid box-shadow-5 rounded">
                     </div>
                 </div>
             </div>

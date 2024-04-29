@@ -26,8 +26,8 @@
         <div class="container position-relative z-index-3 my-3">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 pe-lg-5 mb-4 mb-lg-0">
-                    <a class="lightbox" href="{{ asset('customer/web_img/slider-1.jpg') }}" data-plugin-options="{'type':'image'}">
-                        <img src="{{ asset('customer/web_img/about_us_1.png') }}" class="img-fluid box-shadow-5 rounded">'
+                    <a class="lightbox" href="{{ asset('customer/web_img/about_us_expanded.webp') }}" data-plugin-options="{'type':'image'}">
+                        <img src="{{ asset('customer/web_img/about_us.webp') }}" class="img-fluid box-shadow-5 rounded">'
                     </a>'
                 </div>
                 <div class="col-lg-6">
@@ -91,8 +91,8 @@
                     </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 ps-lg-5 mb-4 mb-lg-0">
-                    <a class="lightbox" href="{{ asset('customer/web_img/mission_vision.jpg') }}" data-plugin-options="{'type':'image'}">
-                        <img src="{{ asset('customer/web_img/mission_vision.jpg') }}" class="img-fluid box-shadow-3 rounded">
+                    <a class="lightbox" href="{{ asset('customer/web_img/mission_vision.webp') }}" data-plugin-options="{'type':'image'}">
+                        <img src="{{ asset('customer/web_img/mission_vision.webp') }}" class="img-fluid box-shadow-3 rounded">
                     </a>
                 </div>
             </div>
