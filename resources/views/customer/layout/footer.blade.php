@@ -71,7 +71,7 @@
                 <div class="col-12 d-flex align-items-center justify-content-center mb-2 mb-lg-0">
                     © {{ date('Y') }} &nbsp;
                     <a href="{{ route('home') }}" class="text-capitalize">
-                        {{ env('APP_WEBSITE') }}. All Rights Reserved
+                        {{ 'RVL Movers Corporation' }}. All Rights Reserved
                     </a>
                 </div>
                 {{-- <div class="col-lg-12 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">

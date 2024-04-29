@@ -262,7 +262,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-xl-7 text-center text-lg-start mb-4 mb-lg-0">
                     <h2 class="text-color-light font-weight-medium text-3-5 line-height-2 line-height-sm-1 ls-0 mb-2 mb-lg-2">#1 CAR CARRIER SERVICE IN PHILIPPINES</h2>
-                    <h3 class="font-weight-bold text-color-light text-transform-none text-8 line-height-2 line-height-lg-1 mb-1">{{ env('APP_WEBSITE') }}</h3>
+                    <h3 class="font-weight-bold text-color-light text-transform-none text-8 line-height-2 line-height-lg-1 mb-1">{{ 'RVL Movers Corporation' }}</h3>
                     <p class="font-weight-medium text-color-light text-4 opacity-7 mb-0">Safe and Quality Trucking Services</p>
                 </div>
                 <div class="col-lg-6 col-xl-5">

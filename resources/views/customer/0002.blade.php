@@ -31,10 +31,10 @@
                     </a>'
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">{{ env('APP_WEBSITE') }}</h2>
+                    <h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">{{ 'RVL Movers Corporation' }}</h2>
                     <h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Company Overview</h3>
                     <p class="mb-3">
-                        {{ env('APP_WEBSITE') }} is a Filipino family-owned business and been providing
+                        {{ 'RVL Movers Corporation' }} is a Filipino family-owned business and been providing
                         customers with a range of delivery solutions to specific customer requirements since
                         1995 (28 years).
                         <br><br>
